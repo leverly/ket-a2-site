@@ -217,7 +217,7 @@ function buildHome() {
   <div class="hero-split">
     <div>
       <div class="hero-badge"><span class="dot-live"></span>对齐 Cambridge A2 Key (KET for Schools) 2025 官方考纲</div>
-      <h1>6 周系统拿下剑桥 KET，<br><span class="accent-word">词汇 · 语法 · 刷题</span>一站通关</h1>
+      <h1>6 周系统拿下剑桥 KET，<span class="accent-word">词汇 · 语法 · 刷题</span>一站通关</h1>
       <p class="lede">
         专为 2–7 年级中小学生打造的 KET 科学备考系统：<b>${STATS.total.toLocaleString('en-US')} 个官方词条全配纯正英音</b>，
         <b>${GRAMMAR_STATS.topics} 个语法考点配中式易错避坑</b>，<b>${Q_STATS.total} 道真题式精练</b>。
@@ -755,7 +755,7 @@ function buildStudy() {
 <div class="page-head">
   <div class="crumb"><a href="index.html">首页</a> / 听音背单词</div>
   <h1>听音闯关背单词</h1>
-  <p class="lede">按 <b>艾宾浩斯遗忘曲线</b> 科学排期：答错 10 分钟后再现，答稳了自动拉长间隔 <span class="nb">（1 天 · 3 天 · 7 天 · 21 天+）</span>，每词自带纯正剑桥英音。</p>
+  <p class="lede">按 <b>艾宾浩斯遗忘曲线</b> 科学排期：答错 10 分钟后再现，答稳了自动把间隔拉长；每词自带纯正剑桥英音。</p>
 
   <div class="scope-bar">
     <div class="scope-bar-label">选择背词词库范围</div>
@@ -1740,9 +1740,9 @@ function buildStats() {
 <section class="section">
   <div class="section-head"><h2>数据来源与口径说明</h2></div>
   <div class="note">
-    <b>官方词表</b>：源自 Cambridge University Press &amp; Assessment 发布的 <i>A2 Key and A2 Key for Schools Vocabulary List</i>（August 2025），正文词条 + 附录 2 的 ${STATS.topics} 个话题表；附录 1 的封闭清单（数字、星期、月份等）未逐条计入总数。<br><br>
-    <b>中文释义与英音</b>：释义结合官方词性筛选并对 500+ 高频多义词、短语和英美差异词做了人工精校；全部 ${STATS.total.toLocaleString('en-US')} 条词条均预合成纯正英音音频，无外链依赖。<br><br>
-    <b>频档与语法题库</b>：频档按真实英语语料词频启发式分为高频/中频/低频三档；语法考点与 ${Q_STATS.total} 道精练题按 A2 Key 公开考试说明（Language Specifications、Reading Part 4/5 与 Writing 常见语法点）原创编写。
+    <p><b>官方词表</b>：源自 Cambridge University Press &amp; Assessment 发布的 <i>A2 Key and A2 Key for Schools Vocabulary List</i>（August 2025），正文词条 + 附录 2 的 ${STATS.topics} 个话题表；附录 1 的封闭清单（数字、星期、月份等）未逐条计入总数。</p>
+    <p><b>中文释义与英音</b>：释义结合官方词性筛选并对 500+ 高频多义词、短语和英美差异词做了人工精校；全部 ${STATS.total.toLocaleString('en-US')} 条词条均预合成纯正英音音频，无外链依赖。</p>
+    <p><b>频档与语法题库</b>：频档按真实英语语料词频启发式分为高频/中频/低频三档；语法考点与 ${Q_STATS.total} 道精练题按 A2 Key 公开考试说明（Language Specifications、Reading Part 4/5 与 Writing 常见语法点）原创编写。</p>
   </div>
 </section>
 `,

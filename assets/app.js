@@ -1102,7 +1102,7 @@
     function emptyState() {
       host.innerHTML = '<div class="qcard" style="text-align:center;justify-content:center">' +
         '<div style="font-size:1.35rem;font-weight:700;margin-bottom:10px">🎉 今天到期的词全部复习完啦！</div>' +
-        '<div style="color:var(--text-2);font-size:.93rem;line-height:1.7">按艾宾浩斯遗忘曲线，今天已经达标。<br>如果想继续抢跑，可以切到「混合模式」学习一批新词。</div>' +
+        '<div style="color:var(--text-2);font-size:.93rem;line-height:1.7">按艾宾浩斯遗忘曲线，今天已经达标。如果想继续抢跑，可以切到「混合模式」学习一批新词。</div>' +
         '<div style="margin-top:24px"><button class="btn primary" id="wsMix">切到混合模式学新词</button></div></div>';
       var b = host.querySelector('#wsMix');
       if (b) b.addEventListener('click', function () { mode = 'mix'; build(); });
@@ -1284,7 +1284,7 @@
         '<div style="font-size:1.2rem;font-weight:700;margin-bottom:4px">' + (pct >= 85 ? '🎉 太棒了，词感超稳！' : '💪 坚持复习，越背越牢！') + '</div>' +
         '<div style="font-family:var(--display);font-size:2.9rem;font-weight:800;color:var(--accent);margin:8px 0">' + sessionOk +
           '<span style="font-size:1.3rem;color:var(--text-3)"> / ' + sessionN + '</span></div>' +
-        '<div style="color:var(--text-2)">个词已记住 · 最高连击 <b>' + best + '</b> · 获得 <b>+' + (sessionN * 5) + ' XP</b><br>' +
+        '<div style="color:var(--text-2)">个词已记住 · 最高连击 <b>' + best + '</b> · 获得 <b>+' + (sessionN * 5) + ' XP</b> · ' +
           '词库累计已学 ' + st.total + ' 词，今日还剩 ' + st.due + ' 个待复习</div>' +
         '<div style="margin-top:26px;display:flex;gap:10px;justify-content:center;flex-wrap:wrap">' +
           '<button class="btn primary" id="wagain">再来一轮</button>' +
