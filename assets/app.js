@@ -967,7 +967,7 @@
     var sa = glossSegments(a), sb = glossSegments(b);
     for (var i = 0; i < sa.length; i++) {
       for (var j = 0; j < sb.length; j++) {
-        if (sa[i].length >= 2 && sa[i] === sb[j]) return true;
+        if (sa[i] === sb[j]) return true;
       }
     }
     return false;
