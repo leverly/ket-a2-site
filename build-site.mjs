@@ -151,7 +151,7 @@ const FOOTER = (base) => `<footer class="foot">
       <h4>官方体系</h4>
       <a href="${base}words.html">${STATS.total.toLocaleString('en-US')} 官方词表</a>
       <a href="${base}topics/index.html">${STATS.topics} 个剑桥话题</a>
-      <a href="${base}grammar.html">12 大语法族</a>
+      <a href="${base}grammar.html">${GRAMMAR_STATS.sections} 大语法族</a>
     </div>
     <div class="col">
       <h4>数据与帮助</h4>
