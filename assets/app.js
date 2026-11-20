@@ -310,6 +310,7 @@
 
   P.srsRate = function (w, grade) {
     P.wordAttempt(w, grade >= 2);
+    srs = load(SRS_KEY, srs) || srs;
     var k = wkey(w);
     var r = srs[k] || { ease: 2.5, ivl: 0, due: 0, reps: 0, lapses: 0 };
     if (grade === 0) {
