@@ -804,6 +804,8 @@
     if (opts.limit) pool = pool.slice(0, opts.limit);
     var i = 0, correct = 0, streak = 0, best = 0, answered = false;
     var total = pool.length;
+    var autoNextTimer = null;
+    var AUTO_NEXT_MS = 900;
 
     host.innerHTML =
       '<div class="quiz-shell">' +
@@ -818,6 +820,8 @@
     var body = host.querySelector('#qbody');
 
     function draw() {
+      clearTimeout(autoNextTimer);
+      autoNextTimer = null;
       answered = false;
       var q = pool[i];
       if (!q) return done();
@@ -858,7 +862,7 @@
           b.addEventListener('click', function () { judgeChoice(q, parseInt(b.getAttribute('data-k'), 10)); });
         });
       }
-      host.querySelector('#qnext').addEventListener('click', function () { i++; draw(); });
+      host.querySelector('#qnext').addEventListener('click', function () { clearTimeout(autoNextTimer); i++; draw(); });
       if (opts.onQuestion) opts.onQuestion(q);
     }
 
@@ -918,14 +922,18 @@
       var ref = refAnswer
         ? '<div style="margin-bottom:6px"><b style="display:inline">参考答案：</b><span style="color:var(--ok);font-family:var(--en);font-weight:700;font-size:1rem">' + esc(refAnswer) + '</span></div>'
         : '';
-      fb.innerHTML = '<div class="feedback' + (ok ? '' : ' bad') + '"><b>' +
+      fb.innerHTML = '<div class="feedback' + (ok ? ' auto-next' : ' bad') + '"><b>' +
         (ok ? '✓ 回答正确！' + (streak >= 3 ? ' 太棒了，已连击 ' + streak + ' 题！' : '') : '✕ 这题进了错题本，看看解析：') +
-        '</b>' + ref + esc(q.why) + '</div>';
+        '</b>' + ref + esc(q.why) +
+        (ok ? '<span class="auto-next-hint">自动进入下一题…</span>' : '') + '</div>';
       var nx = host.querySelector('#qnext');
-      nx.disabled = false;
-      nx.focus();
+      if (!ok) { nx.disabled = false; nx.focus(); } else { nx.remove(); }
       if (P.qRecord) P.qRecord(q.topic, ok, q.id);
       if (opts.onAnswer) opts.onAnswer(q, ok);
+      if (ok) {
+        clearTimeout(autoNextTimer);
+        autoNextTimer = setTimeout(function () { i++; draw(); }, AUTO_NEXT_MS);
+      }
     }
 
     function done() {
