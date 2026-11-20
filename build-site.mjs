@@ -485,7 +485,7 @@ function buildWords() {
   const script = `
 const { WORDS, STATS } = window.PET_DATA;
 const P = window.PET;
-P.renderWordList({ mount: '#wlist', words: WORDS, pageSize: 40, search: '#wq' });
+P.renderWordList({ mount: '#wlist', words: WORDS, pageSize: 40, search: '#wq', onKnown: true });
 function drawKnown() {
   const n = P.knownCount();
   const el = document.querySelector('#kKnown');
@@ -569,7 +569,7 @@ function buildTopics() {
 </section>`,
       script: `
 const list = window.PET_DATA.TOPIC_WORDS;
-window.PET.renderWordList({ mount: '#wlist', words: list, pageSize: 40, search: '#wq' });
+window.PET.renderWordList({ mount: '#wlist', words: list, pageSize: 40, search: '#wq', onKnown: true });
 `,
     }));
   });

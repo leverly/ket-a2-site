@@ -151,6 +151,15 @@
     return !!known[k];
   };
   P.knownCount = function () { return Object.keys(known).length; };
+  P.setKnown = function (w, on) {
+    var k = wkey(w);
+    var cur = !!known[k];
+    if (cur === !!on) return cur;
+    if (on) known[k] = 1; else delete known[k];
+    store(KNOWN_KEY, known);
+    document.dispatchEvent(new CustomEvent('pet:known', { detail: { word: w, on: !!on } }));
+    return !!on;
+  };
   P.clearKnown = function () { known = {}; store(KNOWN_KEY, known); document.dispatchEvent(new CustomEvent('pet:known', { detail: { reset: true } })); };
 
   /* ---------------- 间隔重复（SM-2 简化版） ---------------- */
@@ -788,7 +797,10 @@
         page = 0; draw();
       });
     });
-    if (opts.onKnown) document.addEventListener('pet:known', function () { draw(); });
+    if (opts.onKnown && !host.__knownBound) {
+      host.__knownBound = 1;
+      document.addEventListener('pet:known', function () { draw(); });
+    }
     draw();
     return { redraw: draw };
   };
@@ -1235,6 +1247,9 @@
       P.srsRate(w.w, g);
       sessionN++;
       if (countedOk) sessionOk++;
+      // 答对即标记为已掌握，答错则撤销标记；闪卡的「模糊」不动标记
+      if (g >= 2) P.setKnown(w.w, true);
+      else if (g === 0) P.setKnown(w.w, false);
       if (opts.onRate) opts.onRate(w, g);
       var st = host.querySelector('#qs');
       if (st) st.textContent = '🔥 连击 ' + streak;
