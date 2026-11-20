@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>KET 启航 · 剑桥 A2 Key 官方词汇与语法系统备考平台</title>
+<meta name="description" content="面向中小学生的剑桥 KET (A2 Key) 备考系统：1716 官方词条纯正英音朗读、44 个语法考点避坑、249 道真题式精练与 6 周打卡计划。">
+<meta property="og:title" content="KET 启航 · 剑桥 A2 Key 官方词汇与语法系统备考平台">
+<meta property="og:description" content="面向中小学生的剑桥 KET (A2 Key) 备考系统：1716 官方词条纯正英音朗读、44 个语法考点避坑、249 道真题式精练与 6 周打卡计划。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%232563eb'/%3E%3Cstop offset='1' stop-color='%234f46e5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='32' height='32' rx='9' fill='url(%23g)'/%3E%3Ctext x='16' y='22' font-family='system-ui,sans-serif' font-size='16' font-weight='800' fill='%23fff' text-anchor='middle'%3EP%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/style.css?v=835d65e7">
+<script>try{var m=JSON.parse(localStorage.getItem('ket-theme-manual')||'null');var h=new Date().getHours();var t=(m==='light'||m==='dark')?m:((h>=19||h<6)?'dark':'light');document.documentElement.setAttribute('data-theme',t);}catch(e){var h2=new Date().getHours();document.documentElement.setAttribute('data-theme',(h2>=19||h2<6)?'dark':'light');}</script>
+</head>
+<body data-base="">
+<div class="scroll-progress"></div>
+<header class="hdr">
+  <div class="hdr-in">
+    <a class="logo" href="index.html">
+  <span class="logo-mark"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></span>
+  <span>KET 启航</span>
+  <span class="logo-badge">A2</span>
+</a>
+    <nav class="hdr-nav">
+      <a href="index.html" class="on">首页</a><a href="quiz.html">背单词</a><a href="review.html">练语法</a><a href="words.html">词库</a><a href="grammar.html">语法</a><a href="wrong.html">错题本</a><a href="plan.html">6周计划</a><a href="stats.html">学习数据</a>
+    </nav>
+    <div class="hdr-tools">
+      <button class="theme-btn" aria-label="切换主题">☾</button>
+      <button class="menu-btn" aria-label="菜单" aria-expanded="false">☰</button>
+    </div>
+  </div>
+</header>
+<main class="main">
+<div class="wrap">
+
+<section class="hero">
+  <div class="hero-split">
+    <div>
+      <div class="hero-badge"><span class="dot-live"></span>对齐 Cambridge A2 Key (KET for Schools) 2025 官方考纲</div>
+      <h1>6 周系统拿下剑桥 KET，<br><span class="accent-word">词汇 · 语法 · 刷题</span>一站通关</h1>
+      <p class="lede">
+        专为 2–7 年级中小学生打造的 KET 科学备考系统：<b>1,716 个官方词条全配纯正英音</b>，
+        <b>44 个语法考点配中式易错避坑</b>，<b>249 道真题式精练</b>。
+        每天 20 分钟跟着艾宾浩斯遗忘曲线闯关，进步看得见，家长省心更放心。
+      </p>
+      <div class="hero-cta">
+        <a class="btn primary" href="quiz.html">开始背单词 <span aria-hidden="true">→</span></a>
+        <a class="btn" href="review.html">真题练语法</a>
+        <a class="btn ghost" href="plan.html">看 6 周计划</a>
+      </div>
+      <div class="hero-trust">
+        <span><b>✓</b> 2025 剑桥官方全量词表</span>
+        <span><b>✓</b> 100% 纯正英音朗读</span>
+        <span><b>✓</b> 离线可用 · 支持档案备份</span>
+      </div>
+    </div>
+
+    <div class="cockpit-card" id="today">
+      <div class="cockpit-top">
+        <span class="level-pill" id="cLevel">🏅 Lv.1 剑桥萌新 · 0 XP</span>
+        <button class="countdown-pill" data-open-exam="1" id="cCountdown">📅 <span>设置 KET 考试倒计时</span></button>
+      </div>
+      <div class="cockpit-metrics">
+        <div class="streak-box">
+          <b id="tStreak">0</b>
+          <span id="tStreakLabel">天连学</span>
+        </div>
+        <div class="today-goal">
+          <div class="today-goal-row">
+            <span>今日词汇闯关 <b id="tWords">0</b> / <b id="tGoal">20</b> 词</span>
+            <span class="today-pct" id="tPct">0%</span>
+          </div>
+          <div class="bar"><i id="tBar" style="width:0%"></i></div>
+          <div class="cockpit-sub">
+            <span id="cTarget">目标：Merit 良好 (133+)</span>
+            <a href="stats.html" style="font-weight:600">查看学习数据 →</a>
+          </div>
+        </div>
+      </div>
+      <div class="mission-list">
+        <a class="mission-item" href="quiz.html">
+          <span class="mi-ico blue">🎧</span>
+          <span class="mi-main"><b>第一步：听音闯关背单词</b><small id="ttWords">按遗忘曲线先过高频词，每词纯正英音朗读</small></span>
+          <span class="mi-go">开始 →</span>
+        </a>
+        <a class="mission-item" href="review.html">
+          <span class="mi-ico purple">⚡</span>
+          <span class="mi-main"><b>第二步：真题题型练语法</b><small id="ttGrammar">每天 10–20 题，专攻正确率低的薄弱考点</small></span>
+          <span class="mi-go">去练 →</span>
+        </a>
+        <a class="mission-item" href="wrong.html">
+          <span class="mi-ico rose">🎯</span>
+          <span class="mi-main"><b>第三步：清空今日错题本</b><small id="ttWrong">自动收纳错词错题，支持一键打印复习纸</small></span>
+          <span class="mi-go">查看 →</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="stats reveal">
+    <div class="stat"><b data-count="1589">1589</b><span>官方单词</span><small>100% 附英音朗读</small></div>
+    <div class="stat"><b data-count="127">127</b><span>高频短语</span><small>完形与写作提分点</small></div>
+    <div class="stat"><b data-count="44">44</b><span>核心语法考点</span><small>覆盖 A1/A2/A2+</small></div>
+    <div class="stat"><b data-count="105">105</b><span>中式易错避坑</span><small>✕ 错句 vs ✓ 对句</small></div>
+    <div class="stat"><b data-count="249">249</b><span>真题式精练</span><small>单选 · 改错 · 填空</small></div>
+  </div>
+</section>
+
+<section class="section reveal">
+  <div class="section-head">
+    <div class="section-head-left">
+      <span class="kicker">科学提分闭环</span>
+      <h2>为什么每天 20 分钟，6 周就能稳过 KET？</h2>
+      <span class="sub">拒绝盲目刷题和死记硬背，把备考拆成孩子能坚持、家长看得见的 4 步工程</span>
+    </div>
+  </div>
+  <div class="grid c4">
+    <div class="card step-card">
+      <span class="step-num">STEP 01</span>
+      <h3>按词频分级 + 听音抗遗忘</h3>
+      <p class="desc">先拿下最常考的 683 个核心高频词，再攻克中低频。SM-2 遗忘曲线自动排期，答错 10 分钟复现，告别“背了又忘”。</p>
+    </div>
+    <div class="card step-card">
+      <span class="step-num">STEP 02</span>
+      <h3>直击中国孩子常踩语法坑</h3>
+      <p class="desc">不照搬枯燥语法书，把 44 个考点提炼成公式表 + 105 组红绿对比错句，睡前 3 分钟就能看懂避坑。</p>
+    </div>
+    <div class="card step-card">
+      <span class="step-num">STEP 03</span>
+      <h3>对齐真考 Part 4 / 5 精练</h3>
+      <p class="desc">单项选择、写作改错、开放填空三种题型混编，每题即时给解析，自动定位正确率最低的薄弱考点集中突破。</p>
+    </div>
+    <div class="card step-card">
+      <span class="step-num">STEP 04</span>
+      <h3>错题闭环 + 打印复习纸</h3>
+      <p class="desc">错词需连对 2 次才移出错题本，支持一键打印 A4 错题纸；所有学习记录本地保存，支持随时导出备份。</p>
+    </div>
+  </div>
+</section>
+
+<section class="section reveal">
+  <div class="section-head">
+    <div class="section-head-left">
+      <span class="kicker">核心学习模块</span>
+      <h2>词库、语法、刷题三线联动</h2>
+      <span class="sub">每一项都严格紧扣剑桥 A2 Key 官方大纲</span>
+    </div>
+  </div>
+  <div class="grid c3">
+    <a class="card" href="words.html">
+      <div class="card-ico">📚</div>
+      <h3>全量官方词表 · 1716 条</h3>
+      <p class="desc">完整收录 Cambridge A2 Key 2025 官方词表，含音标、词性、精准中文释义、官方例句与纯正英音点击即读。</p>
+      <div class="meta" style="margin-top:12px">核心高频 683 · 中频主力 865 · 拓展 168</div>
+    </a>
+    <a class="card" href="grammar.html">
+      <div class="card-ico purple">📐</div>
+      <h3>系统语法体系 · 10 族 44 考点</h3>
+      <p class="desc">从时态、情态、冠词代词到介词与简单从句，按 KET 考查权重排序，每个考点都可一键跳转专项刷题。</p>
+      <div class="meta" style="margin-top:12px">105 条易错对比 · 115 个精选例句</div>
+    </a>
+    <a class="card" href="review.html">
+      <div class="card-ico ok">✍️</div>
+      <h3>考点专项刷题 · 249 题</h3>
+      <p class="desc">全面覆盖全部 44 个语法考点，自动统计各考点正确率，支持「专攻最弱考点」与「只练错题本」。</p>
+      <div class="meta" style="margin-top:12px">单选 145 · 改错 47 · 填空 57</div>
+    </a>
+  </div>
+</section>
+
+<section class="section reveal">
+  <div class="section-head">
+    <div class="section-head-left">
+      <span class="kicker">高频场景词库</span>
+      <h2>按 25 个剑桥官方话题成组记词</h2>
+      <span class="sub">阅读和写作总是围绕同一主题出词，按话题记效率翻倍</span>
+    </div>
+    <a class="btn sm soft" href="topics/index.html">查看全部 25 个话题 →</a>
+  </div>
+  <div class="grid c3"><a class="card" href="topics/food-and-drink.html">
+    <div class="card-ico">食</div>
+    <h3>食物与饮品</h3>
+    <div class="meta">107 个官方词条 · Food and Drink</div>
+  </a><a class="card" href="topics/travel-and-transport.html">
+    <div class="card-ico">行</div>
+    <h3>旅行与交通</h3>
+    <div class="meta">84 个官方词条 · Travel and Transport</div>
+  </a><a class="card" href="topics/sport.html">
+    <div class="card-ico">运</div>
+    <h3>运动</h3>
+    <div class="meta">75 个官方词条 · Sport</div>
+  </a><a class="card" href="topics/personal-feelings-opinions-and-experiences-adjectives.html">
+    <div class="card-ico">情</div>
+    <h3>情感与观点</h3>
+    <div class="meta">74 个官方词条 · Personal Feelings &amp; Opinions</div>
+  </a><a class="card" href="topics/entertainment-and-media.html">
+    <div class="card-ico">娱</div>
+    <h3>娱乐与媒体</h3>
+    <div class="meta">69 个官方词条 · Entertainment and Media</div>
+  </a><a class="card" href="topics/work-and-jobs.html">
+    <div class="card-ico">职</div>
+    <h3>工作与职业</h3>
+    <div class="meta">65 个官方词条 · Work and Jobs</div>
+  </a></div>
+</section>
+
+<section class="section reveal">
+  <div class="section-head">
+    <div class="section-head-left">
+      <span class="kicker">语法避坑图谱</span>
+      <h2>按 10 大语法族逐个击破</h2>
+      <span class="sub">直击完形填空与写作丢分重灾区</span>
+    </div>
+    <a class="btn sm soft" href="grammar.html">进入完整语法体系 →</a>
+  </div>
+  <div class="grid c3"><a class="card" href="grammar/tense.html">
+    <div class="card-ico purple">⏱</div>
+    <h3>动词时态</h3>
+    <div class="meta">7 个必考语法点 · 19 条易错避坑</div>
+  </a><a class="card" href="grammar/verb.html">
+    <div class="card-ico purple">✎</div>
+    <h3>动词形式与基本句型</h3>
+    <div class="meta">5 个必考语法点 · 12 条易错避坑</div>
+  </a><a class="card" href="grammar/modal.html">
+    <div class="card-ico purple">◈</div>
+    <h3>情态动词</h3>
+    <div class="meta">5 个必考语法点 · 11 条易错避坑</div>
+  </a><a class="card" href="grammar/noun.html">
+    <div class="card-ico purple">▣</div>
+    <h3>名词与冠词</h3>
+    <div class="meta">4 个必考语法点 · 10 条易错避坑</div>
+  </a><a class="card" href="grammar/pronoun.html">
+    <div class="card-ico purple">◎</div>
+    <h3>代词</h3>
+    <div class="meta">3 个必考语法点 · 8 条易错避坑</div>
+  </a><a class="card" href="grammar/quantity.html">
+    <div class="card-ico purple">∑</div>
+    <h3>数量词与限定词</h3>
+    <div class="meta">3 个必考语法点 · 7 条易错避坑</div>
+  </a></div>
+</section>
+
+<section class="section reveal" id="faq">
+  <div class="section-head">
+    <div class="section-head-left">
+      <span class="kicker">常见问题</span>
+      <h2>关于 KET 备考与使用，你可能想了解</h2>
+    </div>
+  </div>
+  <div class="faq-list">
+    <details class="faq-item" open>
+      <summary>这套系统适合几年级的孩子？英语基础一般能用吗？</summary>
+      <p>非常适合小学 2–6 年级及初中 7 年级正在备考剑桥 KET（A2 Key for Schools）的学生。基础较弱的孩子可以从「核心高频 683 词」和标注为 <b>A1 基础</b> 的语法考点起步；考完 KET 后，标注 <b>A2+</b> 的考点正好衔接 PET。</p>
+    </details>
+    <details class="faq-item">
+      <summary>孩子平时学校作业多，每天需要花多长时间？</summary>
+      <p>建议每天 15–20 分钟即可：10 分钟听音背 20 个单词（系统自动安排到期复习 + 新词），5–10 分钟刷 10 道语法题。周末再花 10 分钟清一次错题本，6 周就能扎实跑完一轮完整体系。</p>
+    </details>
+    <details class="faq-item">
+      <summary>手机、iPad 和电脑都能用吗？需要下载 App 吗？</summary>
+      <p>全端自适应，手机、iPad 平板和电脑浏览器打开就能直接学，无需下载安装 App，也没有弹窗广告。所有 1,716 条单词音频均为纯正英音，点开即播。</p>
+    </details>
+    <details class="faq-item">
+      <summary>孩子的背词进度和错题本会丢失吗？换设备怎么办？</summary>
+      <p>学习记录实时保存在当前浏览器中，离线也能使用。如果需要在电脑和 iPad 之间切换，或担心清缓存丢失，可以随时在「学习数据」页点击<b>一键导出学习档案</b>，在新设备上导入即可无缝恢复。</p>
+    </details>
+    <details class="faq-item">
+      <summary>这个网站覆盖了 KET 考试的哪些部分？</summary>
+      <p>重点攻克 KET 备考最核心的底层能力：<b>完整 1,716 官方大纲词表（含听力辨音）</b>、<b>44 个核心语法考点</b>，以及直接对齐 <b>Reading Part 4（三选一完形）、Part 5（开放填空）与 Writing Part 6/7 写作自查（改错）</b>的 249 道精练题，帮孩子先把词汇和语法地基打牢。</p>
+    </details>
+  </div>
+</section>
+
+</div>
+</main>
+<footer class="foot">
+  <div class="foot-in">
+    <div class="col">
+      <div class="logo" style="margin-bottom:10px">
+        <span class="logo-mark"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg></span>
+        <span>KET 启航</span>
+        <span class="logo-badge">A2</span>
+      </div>
+      <p style="line-height:1.7;margin:0;color:var(--text-2)">面向中小学生的剑桥 A2 Key (KET for Schools) 系统备考站。官方 1716 词全配英音、44 个语法考点、249 道真题式精练与 6 周打卡计划。</p>
+    </div>
+    <div class="col">
+      <h4>每日备考</h4>
+      <a href="quiz.html">听音背单词</a>
+      <a href="review.html">真题练语法</a>
+      <a href="wrong.html">智能错题本</a>
+      <a href="plan.html">6 周通关计划</a>
+    </div>
+    <div class="col">
+      <h4>官方体系</h4>
+      <a href="words.html">1,716 官方词表</a>
+      <a href="topics/index.html">25 个剑桥话题</a>
+      <a href="grammar.html">10 大语法族</a>
+    </div>
+    <div class="col">
+      <h4>数据与帮助</h4>
+      <a href="stats.html">学习数据与备份</a>
+      <a href="index.html#faq">常见问题</a>
+    </div>
+  </div>
+  <div class="foot-bottom">
+    <span>KET 启航 · 剑桥 A2 Key 官方大纲备考系统</span>
+    <span>词表源自 Cambridge A2 Key Vocabulary List (2025) · 离线与在线均可顺畅使用</span>
+  </div>
+</footer>
+<script src="assets/app.js?v=0bb2a99d"></script>
+<script>window.PET_DATA=window.PET_DATA||{};
+window.PET_DATA.STATS={"words":1589,"phrases":127,"total":1716,"b1":683,"b2":865,"b3":168,"topics":25,"withExample":251};</script><script>
+const P = window.PET;
+function refresh() {
+  const set = (id, v) => { const e = document.querySelector(id); if (e) e.textContent = v; };
+  const lv = P.levelInfo();
+  set('#cLevel', '🏅 Lv.' + lv.lv + ' ' + lv.name + ' · ' + lv.xp + ' XP');
+  const days = P.daysLeft();
+  const cd = document.querySelector('#cCountdown');
+  if (cd) {
+    if (days === null) cd.innerHTML = '📅 <span>设置 KET 考试倒计时</span>';
+    else if (days >= 0) cd.innerHTML = '⏳ 距 KET 考试还有 <b>' + days + '</b> 天';
+    else cd.innerHTML = '📅 <span>更新 KET 考试日期</span>';
+  }
+  set('#cTarget', '目标：' + P.targetLabel());
+  const st = P.streak();
+  set('#tStreak', st);
+  set('#tStreakLabel', st === 0 ? '今日开启' : '天连学');
+  set('#tWords', P.todayWords());
+  set('#tGoal', P.goal());
+  const pct = P.todayPct();
+  set('#tPct', pct + '%');
+  const bar = document.querySelector('#tBar');
+  if (bar) bar.style.width = pct + '%';
+  const q = P.todayQuestions();
+  set('#ttGrammar', q ? '今天已精练 ' + q + ' 题，继续保持手感' : '每天 10–20 题，专攻正确率低的考点');
+  const due = P.srsStats().due;
+  set('#ttWords', due ? '今天有 ' + due + ' 个词到期，先复习再学新词' : '按遗忘曲线先过高频词，每词英音朗读');
+  const wn = P.wordBookCount() + P.wrongIds().length;
+  set('#ttWrong', wn ? '当前 ' + wn + ' 条错题待攻克，支持打印复习纸' : '太棒了，错题本目前干干净净');
+}
+refresh();
+document.addEventListener('pet:daily', refresh);
+document.addEventListener('pet:srs', refresh);
+document.addEventListener('pet:profile', refresh);
+</script>
+
+</body>
+</html>

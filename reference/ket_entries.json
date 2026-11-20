@@ -1,0 +1,14485 @@
+[
+{
+"w": "a",
+"pos": "det",
+"posZh": "限定词",
+"type": "word",
+"alias": [
+"an"
+],
+"ex": []
+},
+{
+"w": "a few",
+"pos": "det, adj, pron",
+"posZh": "限定词",
+"type": "phrase",
+"alias": [],
+"ex": [
+"I invited a few of my friends.",
+"I’ll be ready in a few minutes."
+]
+},
+{
+"w": "able",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": [
+"be able to"
+]
+},
+{
+"w": "about",
+"pos": "adv, prep",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": [
+"What about a cold drink?",
+"I have about £3.",
+"a book about animals"
+]
+},
+{
+"w": "above",
+"pos": "adv, prep",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "accident",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "accommodation",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "across",
+"pos": "adv, prep",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": [
+"The bank’s across the road.",
+"He walked across the bridge."
+]
+},
+{
+"w": "act",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "action",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "activity",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "actor",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "actually",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "ad",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"an ad on TV"
+]
+},
+{
+"w": "add",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "address",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "adult",
+"pos": "adj, n",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "advanced",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "adventure",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "advert",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "advertisement",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "advice",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "aeroplane",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "afraid",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "after",
+"pos": "adv, prep",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "afternoon",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "afterwards",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "again",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "against",
+"pos": "prep",
+"posZh": "介词",
+"type": "word",
+"alias": [],
+"ex": [
+"We watched England play against France."
+]
+},
+{
+"w": "age",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"I don’t know his age."
+]
+},
+{
+"w": "aged",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": [
+"aged 10 – 16"
+]
+},
+{
+"w": "ago",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "agree",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": [
+"Yes, I agree with you.",
+"Don’t you agree, Sam?"
+]
+},
+{
+"w": "air",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"to travel by air"
+]
+},
+{
+"w": "airport",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "alarm clock",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "album",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "all",
+"pos": "adv, det, pron",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "all kinds of",
+"pos": "det, pron",
+"posZh": "限定词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "allow",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "all right",
+"pos": "adj, adv, exclam",
+"posZh": "形容词",
+"type": "phrase",
+"alias": [
+"alright"
+],
+"ex": []
+},
+{
+"w": "all sorts of",
+"pos": "det, pron",
+"posZh": "限定词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "all the time",
+"pos": "det",
+"posZh": "限定词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "almost",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "alone",
+"pos": "adj, adv",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "along",
+"pos": "prep",
+"posZh": "介词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "already",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "alright",
+"pos": "adj, adv, exclam",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "also",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "always",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "a.m",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "amazed",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "amazing",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "ambulance",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "among",
+"pos": "prep",
+"posZh": "介词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "an",
+"pos": "det",
+"posZh": "限定词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "and",
+"pos": "conj",
+"posZh": "连词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "angry",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "animal",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "another",
+"pos": "det, pron",
+"posZh": "限定词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "answer",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "any",
+"pos": "det, pron",
+"posZh": "限定词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "anybody",
+"pos": "pron",
+"posZh": "代词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "anymore",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "anyone",
+"pos": "pron",
+"posZh": "代词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "anything",
+"pos": "pron",
+"posZh": "代词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "anyway",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "anywhere",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "apartment",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "apartment building",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "app",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "apple",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "appointment",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"an appointment with the doctor"
+]
+},
+{
+"w": "April",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "area",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "arm",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "armchair",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "around",
+"pos": "adv, prep",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": [
+"to travel around",
+"to sit around the table"
+]
+},
+{
+"w": "arrive",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "art",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "article",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"an article about skiing"
+]
+},
+{
+"w": "artist",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "as",
+"pos": "conj, adv, prep",
+"posZh": "连词",
+"type": "word",
+"alias": [],
+"ex": [
+"as good as",
+"as soon as possible",
+"the same as",
+"as well",
+"as well as"
+]
+},
+{
+"w": "ask",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "assistant",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "as well",
+"pos": "adv",
+"posZh": "副词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "at",
+"pos": "prep",
+"posZh": "介词",
+"type": "word",
+"alias": [],
+"ex": [
+"My email address is david@gmail.com"
+]
+},
+{
+"w": "at all",
+"pos": "prep phr",
+"posZh": "介词短语",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "attractive",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": [
+"The walls are an attractive colour."
+]
+},
+{
+"w": "August",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "aunt",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "autumn",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "available",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "away",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": [
+"He’s gone away.",
+"It’s two kilometres away."
+]
+},
+{
+"w": "awesome",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "awful",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "baby",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "back",
+"pos": "n, adv, adj",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "backpack",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "bad",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": [
+"(be) bad for somebody"
+]
+},
+{
+"w": "badly",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "badminton",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "bag",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "bake",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "ball",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "balloon",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "banana",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "band",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"The band are on tour this month."
+]
+},
+{
+"w": "bank",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"I changed my money in the bank."
+]
+},
+{
+"w": "barbecue",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [
+"barbeque"
+],
+"ex": []
+},
+{
+"w": "baseball",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "basketball",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "bat",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"a baseball bat"
+]
+},
+{
+"w": "bath",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "bathing suit",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "bathroom",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "bathtub",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "battery",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "be",
+"pos": "aux v, v",
+"posZh": "助动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "beach",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "bean",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "bear",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "beard",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "beautiful",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "because",
+"pos": "conj",
+"posZh": "连词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "because of",
+"pos": "prep phr",
+"posZh": "介词短语",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "become",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "bed",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "bedroom",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "bee",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "beetle",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "before",
+"pos": "adv, conj, prep",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "begin",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "beginner",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "beginning",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "behind",
+"pos": "adv, prep",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "believe",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "belong",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": [
+"The bag belongs to me."
+]
+},
+{
+"w": "below",
+"pos": "adv, prep",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "belt",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "beside",
+"pos": "prep",
+"posZh": "介词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "best",
+"pos": "adj, adv",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "better",
+"pos": "adj, adv",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "between",
+"pos": "prep",
+"posZh": "介词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "bicycle",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "big",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "bike",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "bill",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"Can I have my bill, please?"
+]
+},
+{
+"w": "bin",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"Can you throw the rubbish in the bin?"
+]
+},
+{
+"w": "biology",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "bird",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "birth",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "birthday",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "biscuit",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [
+"cookie"
+],
+"ex": []
+},
+{
+"w": "bit",
+"pos": "n, adv",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"Just a little bit of cake, please.",
+"I’m feeling a bit tired."
+]
+},
+{
+"w": "black",
+"pos": "adj, n",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "blackboard",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "blanket",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "block",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"Shall we walk round the block?"
+]
+},
+{
+"w": "blog",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "blond",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "blood",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "blouse",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "blue",
+"pos": "adj, n",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "board",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"The teacher’s writing on the (black/white) board."
+]
+},
+{
+"w": "board game",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "boat",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "body",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "boil",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "boiled",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "book",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"a good book",
+"book a place on the course"
+]
+},
+{
+"w": "bookcase",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "bookshelf",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "bookshop",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [
+"bookstore"
+],
+"ex": []
+},
+{
+"w": "bookstore",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [
+"bookshop"
+],
+"ex": []
+},
+{
+"w": "boot",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"a pair of boots"
+]
+},
+{
+"w": "bored",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "boring",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "born",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": [
+"I was born in Manchester."
+]
+},
+{
+"w": "borrow",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": [
+"She borrowed a book from the library."
+]
+},
+{
+"w": "boss",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "both",
+"pos": "pron, det",
+"posZh": "代词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "bother",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": [
+"Sorry to bother you."
+]
+},
+{
+"w": "bottle",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "bottom",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"at the bottom of the stairs"
+]
+},
+{
+"w": "bowl",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "box",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "boy",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "boyfriend",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "bracelet",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "brain",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "brave",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "bread",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "break",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"a break for lunch",
+"Someone’s broken the window."
+]
+},
+{
+"w": "break down",
+"pos": "phr v",
+"posZh": "动词短语",
+"type": "phrase",
+"alias": [],
+"ex": [
+"The car has broken down."
+]
+},
+{
+"w": "breakfast",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "bridge",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "bright",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": [
+"bright pink"
+]
+},
+{
+"w": "brilliant",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": [
+"I thought the film was brilliant!"
+]
+},
+{
+"w": "bring",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "bring back",
+"pos": "v",
+"posZh": "动词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "broken",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "brother",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "brown",
+"pos": "adj, n",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "brush",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "build",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "building",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "burger",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "bus",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "business",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "businessman",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "businesswoman",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "business person",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "bus station",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "bus stop",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "busy",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "but",
+"pos": "conj",
+"posZh": "连词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "butter",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "butterfly",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "buy",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "by",
+"pos": "prep",
+"posZh": "介词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "by accident",
+"pos": "prep phr",
+"posZh": "介词短语",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "by the way",
+"pos": "prep phr",
+"posZh": "介词短语",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "by post",
+"pos": "prep phr",
+"posZh": "介词短语",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "bye",
+"pos": "exclam",
+"posZh": "感叹词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "cabinet",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "cafe",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [
+"café"
+],
+"ex": []
+},
+{
+"w": "cafeteria",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "cake",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "calendar",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "call",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"I’ll call (phone) again later this afternoon.",
+"He’s called John.",
+"I’m waiting for a call from Anna."
+]
+},
+{
+"w": "camel",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "camera",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "camp",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "camping",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "campsite",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "cap",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "capital",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "can",
+"pos": "n, modal v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"I can ride a bike. (ability)",
+"Can I have one? (request)",
+"Can I help you? (offer)",
+"It can be cold here in winter. (possibility)",
+"You can watch TV now. (permission)"
+]
+},
+{
+"w": "candy",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "cannot",
+"pos": "modal v",
+"posZh": "情态动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "car",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "card",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"birthday card",
+"credit card",
+"card game (e.g. We played a card game in class.)"
+]
+},
+{
+"w": "career",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "careful",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": [
+"Be careful!"
+]
+},
+{
+"w": "carefully",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "car park",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [
+"parking lot"
+],
+"ex": []
+},
+{
+"w": "carpet",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "carrot",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "carry",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "cartoon",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "case",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "cash",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "castle",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "cat",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "catch",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "CD",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "CD player",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "ceiling",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "cell phone",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "celebrate",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "celebrity",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "cent",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "centre",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [
+"center"
+],
+"ex": []
+},
+{
+"w": "centimetre",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [
+"cm",
+"centimeter"
+],
+"ex": []
+},
+{
+"w": "century",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "cereal",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "certainly",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "chain",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"She wore a gold chain.",
+"I need a new bicycle chain."
+]
+},
+{
+"w": "chair",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "change",
+"pos": "v, n",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": [
+"There is a change of room for this course."
+]
+},
+{
+"w": "channel",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "character",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"He was my favourite character in the film."
+]
+},
+{
+"w": "chat",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "chatroom",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "cheap",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "check",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "cheese",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "chef",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "chemist",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [
+"drugstore"
+],
+"ex": []
+},
+{
+"w": "chemistry",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "cheque",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "chess",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "chicken",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "child",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "chilli",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "chips",
+"pos": "n pl",
+"posZh": "名词复数",
+"type": "word",
+"alias": [
+"biscuit"
+],
+"ex": [
+"egg and chips"
+]
+},
+{
+"w": "chocolate",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "choose",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "cinema",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "circle",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "circus",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "city",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "city centre",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "class",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"a language class",
+"a first-class ticket"
+]
+},
+{
+"w": "classical",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "classmate",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "classroom",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "clean",
+"pos": "adj, v",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "cleaner",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "clear",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": [
+"It’s not clear to me."
+]
+},
+{
+"w": "clearly",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "clever",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "click",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"Click here to go to our website."
+]
+},
+{
+"w": "climb",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "climbing",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "clock",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "close",
+"pos": "adj, v",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "close to",
+"pos": "prep phr",
+"posZh": "介词短语",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "closed",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "closet",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "clothes",
+"pos": "n pl",
+"posZh": "名词复数",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "cloud",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "cloudy",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "clown",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "club",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"to join a club"
+]
+},
+{
+"w": "coach",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"a coach trip",
+"a tennis coach"
+]
+},
+{
+"w": "coat",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "coast",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "coffee",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "cola",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "cold",
+"pos": "adj, n",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "colleague",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "collect",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "college",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "colour",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "comb",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "come",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "come back",
+"pos": "v",
+"posZh": "动词",
+"type": "phrase",
+"alias": [],
+"ex": [
+"We came back from our holiday yesterday."
+]
+},
+{
+"w": "comedy",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "comfortable",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "comic",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "company",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"What’s the name of your company?"
+]
+},
+{
+"w": "competition",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "complete",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "computer",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "concert",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "congratulations!",
+"pos": "exclam",
+"posZh": "感叹词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "contact",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "continue",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "conversation",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "cook",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "cooker",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "cookie",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [
+"biscuit"
+],
+"ex": []
+},
+{
+"w": "cooking",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "cool",
+"pos": "adj, exclam",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": [
+"That’s a cool bike!"
+]
+},
+{
+"w": "copy",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "corner",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"the corner of the street"
+]
+},
+{
+"w": "correct",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "cost",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "costume",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"I forgot my swimming costume."
+]
+},
+{
+"w": "could",
+"pos": "modal v",
+"posZh": "情态动词",
+"type": "word",
+"alias": [],
+"ex": [
+"I couldn’t find the information",
+"Could you lend me some money?",
+"We could go to the cinema tonight."
+]
+},
+{
+"w": "country",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "countryside",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "course",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"a university course",
+"a main course",
+"of course (not)"
+]
+},
+{
+"w": "court",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"a tennis court"
+]
+},
+{
+"w": "cousin",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "cover",
+"pos": "v, n",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": [
+"I had to cover my eyes.",
+"There was a flower on the book’s cover."
+]
+},
+{
+"w": "cow",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "cream",
+"pos": "adj, n",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": [
+"I like strawberries and cream.",
+"Mum’s cream T-shirt got dirty."
+]
+},
+{
+"w": "creature",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "credit card",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "cricket",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "crocodile",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "cross",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"Don’t cross the road here!"
+]
+},
+{
+"w": "crossing",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"Use the crossing to cross the street."
+]
+},
+{
+"w": "crowd",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "crowded",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "cry",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": [
+"The baby’s crying."
+]
+},
+{
+"w": "cup",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "cupboard",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "curry",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "curtain",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "customer",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "cut",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "cycle",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "cycling",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "dad",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "daily",
+"pos": "adj, adv",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "dance",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "dancer",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "dancing",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "danger",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "dangerous",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "dark",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "date",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"What’s the date today?"
+]
+},
+{
+"w": "daughter",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "day",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "dead",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "dear",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": [
+"Dear Anne,"
+]
+},
+{
+"w": "December",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "decide",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "deep",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "degree",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"The temperature’s 30 degrees today."
+]
+},
+{
+"w": "delay",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"There will be a delay of two hours."
+]
+},
+{
+"w": "delayed",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": [
+"The flight is delayed."
+]
+},
+{
+"w": "delicious",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "deliver",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "dentist",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "department",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "department store",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "describe",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "desert",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "design",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "desk",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "dessert",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "details",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "diary",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "dictionary",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "die",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "difference",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "different",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "difficult",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "digital",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "digital camera",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "dining room",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "dinner",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "dinosaur",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "diploma",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "directions",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "dirty",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "disco",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "discount",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "discover",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "discuss",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "dish",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"Chicken and chips is my favourite dish.",
+"I broke a dish when I was doing the washing up."
+]
+},
+{
+"w": "dive",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": [
+"I learnt to dive at the swimming pool."
+]
+},
+{
+"w": "diving",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": [
+"I’ve j oined a diving club."
+]
+},
+{
+"w": "do",
+"pos": "aux v, v",
+"posZh": "助动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "doctor",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "document",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "dog",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "doll",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "dollar",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "dolphin",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "donkey",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "door",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "dot",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"dot com"
+]
+},
+{
+"w": "double",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": [
+"a double room"
+]
+},
+{
+"w": "down",
+"pos": "adv, prep",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "download",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"I downloaded the songs from the internet."
+]
+},
+{
+"w": "downstairs",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "Dr",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "draw",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "drawer",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "drawing",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "dream",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "dress",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "dressed",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": [
+"Hurry, you need to get dressed!"
+]
+},
+{
+"w": "drink",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "drive",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "driver",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "driving",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [
+"driver’s license",
+"driver’s licence"
+],
+"ex": []
+},
+{
+"w": "drop",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "drugstore",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [
+"chemist"
+],
+"ex": []
+},
+{
+"w": "drum",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "dry",
+"pos": "adj, v",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "duck",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "during",
+"pos": "prep",
+"posZh": "介词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "DVD",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "DVD player",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "each",
+"pos": "det, pron",
+"posZh": "限定词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "each other",
+"pos": "pron",
+"posZh": "代词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "eagle",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "ear",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "early",
+"pos": "adj, adv",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "earn",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "earring",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "easily",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "east",
+"pos": "n, adj, adv",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "easy",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "eat",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "egg",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "electric",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "electricity",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "elephant",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "elevator",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [
+"lift"
+],
+"ex": []
+},
+{
+"w": "else",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": [
+"Anything else?"
+]
+},
+{
+"w": "email",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "empty",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "end",
+"pos": "v, n",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "engine",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "engineer",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "enjoy",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "enough",
+"pos": "adv, det, pron",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "enter",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": [
+"Are you going to enter the poster competition?",
+"Please enter through the side door."
+]
+},
+{
+"w": "entrance",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "envelope",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "environment",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "equipment",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"You need special equipment to go diving."
+]
+},
+{
+"w": "eraser",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [
+"rubber"
+],
+"ex": []
+},
+{
+"w": "especially",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "euro",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "even",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "evening",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "event",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"The Olympic games is a great event."
+]
+},
+{
+"w": "ever",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "every",
+"pos": "det",
+"posZh": "限定词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "everybody",
+"pos": "pron",
+"posZh": "代词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "everyone",
+"pos": "pron",
+"posZh": "代词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "everything",
+"pos": "pron",
+"posZh": "代词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "everywhere",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "exactly",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "examination",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [
+"exam"
+],
+"ex": []
+},
+{
+"w": "example",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"Look at the example first.",
+"for example"
+]
+},
+{
+"w": "excellent",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "except",
+"pos": "conj, prep",
+"posZh": "连词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "excited",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "exciting",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "excuse",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": [
+"Excuse me!"
+]
+},
+{
+"w": "exercise",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"He should do more exercise to get fit.",
+"I’ve got a maths exercise to finish."
+]
+},
+{
+"w": "exhibition",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"art exhibition"
+]
+},
+{
+"w": "exit",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "expensive",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "experience",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "experiment",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"The science experiment was fun."
+]
+},
+{
+"w": "explain",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "explore",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "explorer",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"This book’s about famous explorers."
+]
+},
+{
+"w": "extinct",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "extra",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "eye",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "face",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "fact",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "factory",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "fail",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "fair",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": [
+"She has fair hair."
+]
+},
+{
+"w": "fall",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"in the fall (n) (Am Eng) (Br Eng: autumn)",
+"He fell and hurt his leg."
+]
+},
+{
+"w": "fall over",
+"pos": "phr v",
+"posZh": "动词短语",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "family",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "famous",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "fan",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"She’s a football fan."
+]
+},
+{
+"w": "fantastic",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "far",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": [
+"How far is the next garage?"
+]
+},
+{
+"w": "farm",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "farmer",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "fashion",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "fast",
+"pos": "adj, adv",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "fast food",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "fat",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "father",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "favourite",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "February",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "feel",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": [
+"to feel well"
+]
+},
+{
+"w": "feelings",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "festival",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "few",
+"pos": "det, adj",
+"posZh": "限定词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "field",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "file",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "fill",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "fill in",
+"pos": "phr v",
+"posZh": "动词短语",
+"type": "phrase",
+"alias": [],
+"ex": [
+"to fill in a form"
+]
+},
+{
+"w": "film",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "final",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "finally",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "find",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": [
+"I found my keys under the sofa."
+]
+},
+{
+"w": "find out",
+"pos": "phr v",
+"posZh": "动词短语",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "fine",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": [
+"That’s fine!",
+"I’m fine, thank you.",
+"The weather is fine."
+]
+},
+{
+"w": "finger",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "finish",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "fire",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "first",
+"pos": "adv, adj",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": [
+"First… then…",
+"John came first.",
+"first prize"
+]
+},
+{
+"w": "first name",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "first of all",
+"pos": "adv",
+"posZh": "副词",
+"type": "phrase",
+"alias": [],
+"ex": [
+"First of all, you must wash your hands."
+]
+},
+{
+"w": "fish",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "fishing",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "fit",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": [
+"I joined a gym to get fit.",
+"I run to keep fit."
+]
+},
+{
+"w": "fix",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "flat",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "flight",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "floor",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"The bedrooms are on the first floor.",
+"Don’t leave your clothes on the floor."
+]
+},
+{
+"w": "flower",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "fly",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "fog",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "foggy",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "folder",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "follow",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": [
+"follow somebody on social media"
+]
+},
+{
+"w": "food",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "foot",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"my right foot"
+]
+},
+{
+"w": "football",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "football player",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "footballer",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "for",
+"pos": "prep",
+"posZh": "介词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "for sale",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "foreign",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "forest",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "forget",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "fork",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"knife and fork"
+]
+},
+{
+"w": "form",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"Fill in this form."
+]
+},
+{
+"w": "free",
+"pos": "adj, adv",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": [
+"I got a free ticket to the match.",
+"Are you free on Saturday?"
+]
+},
+{
+"w": "French fries",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [
+"chips"
+],
+"ex": []
+},
+{
+"w": "fresh",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": [
+"fresh fruit"
+]
+},
+{
+"w": "fridge",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "Friday",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "fried",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "friend",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"It’s easy for her make friends."
+]
+},
+{
+"w": "friendly",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "frightened",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "frog",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "from",
+"pos": "prep",
+"posZh": "介词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "front",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"at the front of the train",
+"Stand in front of me."
+]
+},
+{
+"w": "fruit",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "full",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "fun",
+"pos": "adj, n",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "funny",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "fur",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "furniture",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "further",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "future",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "gallery",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "game",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "garage",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "garden",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "garlic",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "gas",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [
+"petrol"
+],
+"ex": []
+},
+{
+"w": "gas station",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [
+"petrol station"
+],
+"ex": []
+},
+{
+"w": "gate",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "geography",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "get",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "get back",
+"pos": "v",
+"posZh": "动词",
+"type": "phrase",
+"alias": [],
+"ex": [
+"I need to take the bus to get back home."
+]
+},
+{
+"w": "get dressed",
+"pos": "v",
+"posZh": "动词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "get fit",
+"pos": "v",
+"posZh": "动词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "get married",
+"pos": "v",
+"posZh": "动词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "get off",
+"pos": "phr v",
+"posZh": "动词短语",
+"type": "phrase",
+"alias": [],
+"ex": [
+"to get off the bus"
+]
+},
+{
+"w": "get on",
+"pos": "phr v",
+"posZh": "动词短语",
+"type": "phrase",
+"alias": [],
+"ex": [
+"to get on the bus"
+]
+},
+{
+"w": "get up",
+"pos": "phr v",
+"posZh": "动词短语",
+"type": "phrase",
+"alias": [],
+"ex": [
+"to get up in the morning"
+]
+},
+{
+"w": "gift",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "giraffe",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "girl",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "girlfriend",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "give",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "give back",
+"pos": "v",
+"posZh": "动词",
+"type": "phrase",
+"alias": [],
+"ex": [
+"I’ll give them back to you tomorrow.",
+"I’ll give back your books tomorrow."
+]
+},
+{
+"w": "give somebody a call",
+"pos": "v",
+"posZh": "动词",
+"type": "phrase",
+"alias": [
+"ring"
+],
+"ex": []
+},
+{
+"w": "glad",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "glass",
+"pos": "n, adj",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "glasses",
+"pos": "n pl",
+"posZh": "名词复数",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "glove",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "go",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "goal",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "goat",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "gold",
+"pos": "n, adj",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "golden",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "golf",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "good",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "good afternoon",
+"pos": "exclam",
+"posZh": "感叹词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "goodbye",
+"pos": "exclam",
+"posZh": "感叹词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "good evening",
+"pos": "exclam",
+"posZh": "感叹词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "good-looking",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "good morning",
+"pos": "exclam",
+"posZh": "感叹词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "good night",
+"pos": "exclam",
+"posZh": "感叹词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "go out",
+"pos": "phr v",
+"posZh": "动词短语",
+"type": "phrase",
+"alias": [],
+"ex": [
+"Are you going out this evening?"
+]
+},
+{
+"w": "go shopping",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "grade",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "gram",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [
+"me"
+],
+"ex": []
+},
+{
+"w": "grandchild",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "grandad",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "granddaughter",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "grandfather",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "grandma",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "grandmother",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "grandpa",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "grandparent",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "grandson",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "granny",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "grape",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "grass",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "great",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "green",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "grey",
+"pos": "adj, n",
+"posZh": "形容词",
+"type": "word",
+"alias": [
+"gray"
+],
+"ex": []
+},
+{
+"w": "grilled",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "grocery store",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "ground",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "group",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "grow",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "grow up",
+"pos": "phr v",
+"posZh": "动词短语",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "guess",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "Guess what?",
+"pos": "v",
+"posZh": "动词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "guest",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "guest-house",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "guide",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "guidebook",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "guitar",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "guy",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"He’s a really nice guy."
+]
+},
+{
+"w": "gym",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "hair",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "half",
+"pos": "det, n, pron",
+"posZh": "限定词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "half-price",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "hall",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "hand",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "handbag",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "happen",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "happy",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "harbour",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "hard",
+"pos": "adj, adv",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": [
+"hard wood",
+"the homework was hard",
+"to work hard"
+]
+},
+{
+"w": "hat",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "hate",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "have",
+"pos": "aux v, v",
+"posZh": "助动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "have got to",
+"pos": "modal v",
+"posZh": "情态动词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "have to",
+"pos": "modal v",
+"posZh": "情态动词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "he",
+"pos": "pron",
+"posZh": "代词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "head",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"My head hurts."
+]
+},
+{
+"w": "headache",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "headphones",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "headteacher",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "health",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "healthy",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "hear",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "heart",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "heating",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"Can you turn the heating on?"
+]
+},
+{
+"w": "heavy",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": [
+"a heavy blanket"
+]
+},
+{
+"w": "helicopter",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "hello",
+"pos": "exclam",
+"posZh": "感叹词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "help",
+"pos": "v, n",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": [
+"Call me if you need any help."
+]
+},
+{
+"w": "helpful",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "her",
+"pos": "det, pron",
+"posZh": "限定词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "here",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "hers",
+"pos": "pron",
+"posZh": "代词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "herself",
+"pos": "pron",
+"posZh": "代词",
+"type": "word",
+"alias": [],
+"ex": [
+"by herself"
+]
+},
+{
+"w": "hey",
+"pos": "exclam",
+"posZh": "感叹词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "hi",
+"pos": "exclam",
+"posZh": "感叹词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "high",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "hill",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "him",
+"pos": "pron",
+"posZh": "代词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "himself",
+"pos": "pron",
+"posZh": "代词",
+"type": "word",
+"alias": [],
+"ex": [
+"by himself"
+]
+},
+{
+"w": "hip hop",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "hippo",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "his",
+"pos": "det, pron",
+"posZh": "限定词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "history",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "hit",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "hobby",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "hockey",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "hold",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "holiday",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "home",
+"pos": "n, adv",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "homework",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "honey",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "hoodie",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "hope",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "horrible",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "horror",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "horse",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "hospital",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "hot",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "hotel",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "hour",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "house",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "housewife",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "how",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "however",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "huge",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "hungry",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "hurry",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "hurt",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "husband",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "I",
+"pos": "pron",
+"posZh": "代词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "ice",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "ice cream",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "ice skating",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "ID",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "ID card",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "idea",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "identification",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "if",
+"pos": "conj",
+"posZh": "连词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "ill",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "immediately",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "important",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "impossible",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "improve",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "in",
+"pos": "adv, prep",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "include",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "including",
+"pos": "prep",
+"posZh": "介词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "indoor",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "indoors",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "information",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "in front of",
+"pos": "prep phr",
+"posZh": "介词短语",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "ingredient",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "insect",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "inside",
+"pos": "adv, prep",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "instead",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "instead of",
+"pos": "prep",
+"posZh": "介词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "instructions",
+"pos": "n pl",
+"posZh": "名词复数",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "instrument",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "interested",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "interesting",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "international",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "internet",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "into",
+"pos": "prep",
+"posZh": "介词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "invent",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "invention",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "invitation",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "invite",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "island",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "it",
+"pos": "pron",
+"posZh": "代词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "IT",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "its",
+"pos": "det",
+"posZh": "限定词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "itself",
+"pos": "pron",
+"posZh": "代词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "jacket",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "jam",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"fruit jam"
+]
+},
+{
+"w": "January",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "jazz",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "jeans",
+"pos": "n pl",
+"posZh": "名词复数",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "jellyfish",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "jewellery",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [
+"jewelry"
+],
+"ex": []
+},
+{
+"w": "job",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "join",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "journalist",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "journey",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "juice",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "July",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "jump",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "jumper",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "June",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "just",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": [
+"I’ve just seen Tom.",
+"Just a moment."
+]
+},
+{
+"w": "kangaroo",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "keep",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": [
+"May I keep this?",
+"Keep right!"
+]
+},
+{
+"w": "key",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"This is the key to my house.",
+"The answer key is at the back of the book."
+]
+},
+{
+"w": "keyboard",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"I play the keyboard in a band.",
+"The keyboard for my computer is broken."
+]
+},
+{
+"w": "kick",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "kid",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "kilogramme",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [
+"kg",
+"kilogram"
+],
+"ex": []
+},
+{
+"w": "kilometre",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [
+"km",
+"kilometer"
+],
+"ex": []
+},
+{
+"w": "kind",
+"pos": "adj, n",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": [
+"That’s very kind of you.",
+"What kind of book do you want?"
+]
+},
+{
+"w": "king",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "kiss",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "kit",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "kitchen",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "kite",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "kitten",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "knife",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "know",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "lake",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "lamp",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "language",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "laptop",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [
+"computer"
+],
+"ex": []
+},
+{
+"w": "large",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "last",
+"pos": "adj, det",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "late",
+"pos": "adv, adj",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": [
+"The train is going to be late."
+]
+},
+{
+"w": "later",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": [
+"I’ll see you later."
+]
+},
+{
+"w": "latest",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "laugh",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "lazy",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "learn",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "least",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": [
+"at least"
+]
+},
+{
+"w": "leather",
+"pos": "n, adj",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "leave",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": [
+"The train leaves at 10 o’clock.",
+"I left my bag in the cinema.",
+"There isn’t any milk left."
+]
+},
+{
+"w": "left",
+"pos": "adj, adv, n",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": [
+"Go to the left.",
+"left hand",
+"Turn left."
+]
+},
+{
+"w": "left-hand",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "leg",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "lemon",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "lemonade",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "lend",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "length",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"The length of the lesson/journey was 50 minutes.",
+"The length of the race was 100 metres.",
+"Can you swim a length of the pool?"
+]
+},
+{
+"w": "less",
+"pos": "adj, det, pron",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "lesson",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "let",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": [
+"Let’s go to the beach.",
+"Let me know when you arrive.",
+"My parents let me go to the beach."
+]
+},
+{
+"w": "letter",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"Saturday begins with a capital letter.",
+"I posted the letter to you on Friday."
+]
+},
+{
+"w": "level",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"language level"
+]
+},
+{
+"w": "library",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "licence",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"driving licence"
+]
+},
+{
+"w": "lie down",
+"pos": "phr v",
+"posZh": "动词短语",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "life",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "lift",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"Take the lift to the third floor.",
+"Can I give you a lift to the station?"
+]
+},
+{
+"w": "light",
+"pos": "n, adj",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "like",
+"pos": "adv, prep, v",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": [
+"What’s the weather like?",
+"It’s like an orange but bigger.",
+"I’d like a drink."
+]
+},
+{
+"w": "line",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"draw a line",
+"the next line"
+]
+},
+{
+"w": "link",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [
+"technology"
+],
+"ex": [
+"Click on the link."
+]
+},
+{
+"w": "lion",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "list",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "listen",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [
+"to"
+],
+"ex": []
+},
+{
+"w": "litre",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [
+"liter"
+],
+"ex": []
+},
+{
+"w": "little",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "live",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "living room",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "lizard",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "local",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "long",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "look",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": [
+"You look happy.",
+"Don’t look now!"
+]
+},
+{
+"w": "look after",
+"pos": "phr v",
+"posZh": "动词短语",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "look at",
+"pos": "phr v",
+"posZh": "动词短语",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "look for",
+"pos": "phr v",
+"posZh": "动词短语",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "look out",
+"pos": "phr v",
+"posZh": "动词短语",
+"type": "phrase",
+"alias": [],
+"ex": [
+"Look out – it’s going to fall!"
+]
+},
+{
+"w": "lorry",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "lose",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": [
+"We lost the game.",
+"I’ve lost my passport."
+]
+},
+{
+"w": "lost",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "lots",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [
+"a lot"
+],
+"ex": [
+"a lot of homework."
+]
+},
+{
+"w": "loud",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "love",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "lovely",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "low",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "luck",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "luckily",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "lucky",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "luggage",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "lunch",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "lunchtime",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "machine",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "mad",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "magazine",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "mail",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "main course",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "make",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "make sure",
+"pos": "v",
+"posZh": "动词",
+"type": "phrase",
+"alias": [
+"that"
+],
+"ex": []
+},
+{
+"w": "make-up",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "man",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "manager",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "mango",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "many",
+"pos": "det, pron",
+"posZh": "限定词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "map",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "March",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "mark",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "market",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "married",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "match",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"football match"
+]
+},
+{
+"w": "maths",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [
+"math",
+"mathematics"
+],
+"ex": []
+},
+{
+"w": "matter",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"It doesn’t matter.",
+"What’s the matter?"
+]
+},
+{
+"w": "May",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "may",
+"pos": "modal v",
+"posZh": "情态动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "maybe",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "me",
+"pos": "pron",
+"posZh": "代词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "meal",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "mean",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "meat",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "mechanic",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "medicine",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "meet",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "meeting",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "melon",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "member",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"a member of a club"
+]
+},
+{
+"w": "memory",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"My computer has 100GB of memory."
+]
+},
+{
+"w": "menu",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "message",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "metal",
+"pos": "n, adj",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "metre",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [
+"meter"
+],
+"ex": []
+},
+{
+"w": "microphone",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "midday",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "middle",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"Bob’s the one in the middle of the photo."
+]
+},
+{
+"w": "midnight",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "might",
+"pos": "modal v",
+"posZh": "情态动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "mile",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "milk",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "million",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "mind",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": [
+"Do you mind if I close the window?",
+"I don’t mind if…",
+"Never mind.",
+"Mind your head!"
+]
+},
+{
+"w": "mine",
+"pos": "pron",
+"posZh": "代词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "mineral water",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "minus",
+"pos": "prep",
+"posZh": "介词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "minute",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "mirror",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "Miss",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "miss",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "missing",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "mistake",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "mix",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "mobile",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [
+"phone"
+],
+"ex": []
+},
+{
+"w": "model",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "modern",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "mom",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "moment",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"I’m in England at the moment."
+]
+},
+{
+"w": "Monday",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "money",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "monkey",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "month",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "monthly",
+"pos": "adj, adv",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "moon",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "more",
+"pos": "adj, adv, det, pron",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "morning",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "most",
+"pos": "adj, adv, det, pron",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "mother",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "motorbike",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "motorway",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "mountain",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "mouse",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"I got a new mouse for my laptop.",
+"I’ve got a pet mouse."
+]
+},
+{
+"w": "mouth",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "move",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "movie",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [
+"film"
+],
+"ex": []
+},
+{
+"w": "movie star",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [
+"film star"
+],
+"ex": []
+},
+{
+"w": "movie theater",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [
+"cinema"
+],
+"ex": []
+},
+{
+"w": "Mr",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "Mrs",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "Ms",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "much",
+"pos": "adj, adv, det, pron",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "mug",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "mum",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "museum",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "mushroom",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "music",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "musical",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "musician",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "must",
+"pos": "modal v",
+"posZh": "情态动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "my",
+"pos": "det",
+"posZh": "限定词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "myself",
+"pos": "pron",
+"posZh": "代词",
+"type": "word",
+"alias": [],
+"ex": [
+"by myself"
+]
+},
+{
+"w": "name",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "national",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "nationality",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "nature",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "natural",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [
+"NOT ARTIFICIAL"
+],
+"ex": []
+},
+{
+"w": "near",
+"pos": "adv, prep",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "nearly",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "neck",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "necklace",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "need",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "neighbour",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "nervous",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "nest",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "net",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"I found a great website on the net."
+]
+},
+{
+"w": "never",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "new",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "news",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "newspaper",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "next",
+"pos": "adj, adv",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "next to",
+"pos": "prep",
+"posZh": "介词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "nice",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "night",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "no",
+"pos": "adv, det, pron",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "nobody",
+"pos": "pron",
+"posZh": "代词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "noise",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "noisy",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "noon",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "no one",
+"pos": "pron",
+"posZh": "代词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "normal",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "north",
+"pos": "n, adj, adv",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "nose",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "not",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "note",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"The students took notes during the class.",
+"She noted the name of the company."
+]
+},
+{
+"w": "notebook",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "nothing",
+"pos": "pron",
+"posZh": "代词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "notice",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "November",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "now",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "number",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "nurse",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "ocean",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "occupation",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "October",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "octopus",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "o'clock",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "of",
+"pos": "prep",
+"posZh": "介词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "of course",
+"pos": "adv",
+"posZh": "副词",
+"type": "phrase",
+"alias": [
+"not"
+],
+"ex": []
+},
+{
+"w": "off",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "offer",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "office",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "often",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "oh",
+"pos": "exclam",
+"posZh": "感叹词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "oh dear!",
+"pos": "exclam",
+"posZh": "感叹词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "oil",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"My car needs more oil.",
+"cooking oil"
+]
+},
+{
+"w": "OK",
+"pos": "exclam",
+"posZh": "感叹词",
+"type": "word",
+"alias": [
+"okay"
+],
+"ex": []
+},
+{
+"w": "old",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "Olympic",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "omelette",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "on",
+"pos": "prep, adv",
+"posZh": "介词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "once",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": [
+"only once"
+]
+},
+{
+"w": "one",
+"pos": "det, pron",
+"posZh": "限定词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "onion",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "online",
+"pos": "adj, adv",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "only",
+"pos": "adv, adj",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": [
+"I only wanted to help.",
+"the only one"
+]
+},
+{
+"w": "open",
+"pos": "adj, v",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "opera",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "opinion",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "opposite",
+"pos": "prep",
+"posZh": "介词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "or",
+"pos": "conj",
+"posZh": "连词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "orange",
+"pos": "adj, n",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "order",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"We have received your order.",
+"You order your meal from the waiter."
+]
+},
+{
+"w": "other",
+"pos": "det, pron",
+"posZh": "限定词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "our",
+"pos": "det",
+"posZh": "限定词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "ours",
+"pos": "pron",
+"posZh": "代词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "ourselves",
+"pos": "pron",
+"posZh": "代词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "out",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "outdoor",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "outdoors",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "out of",
+"pos": "prep",
+"posZh": "介词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "outside",
+"pos": "prep, adv",
+"posZh": "介词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "oven",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "over",
+"pos": "prep, adv",
+"posZh": "介词",
+"type": "word",
+"alias": [],
+"ex": [
+"over 60 people",
+"to travel all over the world"
+]
+},
+{
+"w": "own",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": [
+"They cook their own meals."
+]
+},
+{
+"w": "pack",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": [
+"pack a suitcase"
+]
+},
+{
+"w": "page",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "pain",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "paint",
+"pos": "v, n",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "painter",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "painting",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "pale",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "pair",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"a pair of shoes"
+]
+},
+{
+"w": "panda",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "paper",
+"pos": "n, adj",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "paragraph",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "pardon",
+"pos": "exclam",
+"posZh": "感叹词",
+"type": "word",
+"alias": [],
+"ex": [
+"Pardon?"
+]
+},
+{
+"w": "parent",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "park",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "parking lot",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [
+"car park"
+],
+"ex": []
+},
+{
+"w": "parrot",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "part",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"the best part of the day"
+]
+},
+{
+"w": "partner",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "party",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "pass",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": [
+"You pass the station on the left.",
+"to pass a driving test"
+]
+},
+{
+"w": "passenger",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "passport",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "password",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "past",
+"pos": "prep, n",
+"posZh": "介词",
+"type": "word",
+"alias": [],
+"ex": [
+"In the past, people didn’t have laptops.",
+"It’s quarter past twelve."
+]
+},
+{
+"w": "pasta",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "path",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "pay",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "PC",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [
+"personal computer"
+],
+"ex": []
+},
+{
+"w": "pear",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "pen",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "pence",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "pencil",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "pencil case",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "penfriend",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "penguin",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "penny",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "people",
+"pos": "n pl",
+"posZh": "名词复数",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "pepper",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "per",
+"pos": "prep",
+"posZh": "介词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "perfect",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "perform",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [
+"ENTERTAIN"
+],
+"ex": []
+},
+{
+"w": "performance",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [
+"ENTERTAINMENT"
+],
+"ex": []
+},
+{
+"w": "perfume",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "perhaps",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "person",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "pet",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "petrol",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "petrol station",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "pharmacy",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "phone",
+"pos": "v, n",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "photo",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [
+"graph"
+],
+"ex": []
+},
+{
+"w": "photographer",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "photography",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "physics",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "piano",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "pick up",
+"pos": "phr v",
+"posZh": "动词短语",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "picnic",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "picture",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "piece",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"a piece of cake"
+]
+},
+{
+"w": "pillow",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "pilot",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "pink",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "pity",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"What a pity!"
+]
+},
+{
+"w": "pizza",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "place",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"a nice place for a picnic",
+"Let’s meet at my place.",
+"book a place on a course",
+"to take place"
+]
+},
+{
+"w": "plan",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "plane",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"The plane was late."
+]
+},
+{
+"w": "plant",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "plastic",
+"pos": "n, adj",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "plate",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "platform",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"Your train leaves from Platform 8."
+]
+},
+{
+"w": "play",
+"pos": "v, n",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": [
+"to play football",
+"to play the guitar",
+"a play at the theatre"
+]
+},
+{
+"w": "player",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "playground",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "pleasant",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "please",
+"pos": "v, exclam",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": [
+"I’m very pleased for you.",
+"Please be quiet!"
+]
+},
+{
+"w": "pleased",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "plus",
+"pos": "prep",
+"posZh": "介词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "p.m",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "pocket",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "point",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "polar bear",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "police",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "police car",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "police officer",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "police station",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "polite",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "pool",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"swimming pool"
+]
+},
+{
+"w": "poor",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "poor thing",
+"pos": "adj",
+"posZh": "形容词",
+"type": "phrase",
+"alias": [
+"you"
+],
+"ex": []
+},
+{
+"w": "pop",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"pop music"
+]
+},
+{
+"w": "popular",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "port",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "possible",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "possibly",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "post",
+"pos": "v, n",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": [
+"to post a letter",
+"What’s in the post today?",
+"to post something online"
+]
+},
+{
+"w": "postcard",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "poster",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "post office",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "potato",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "pound",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "practice",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [
+"practise"
+],
+"ex": [
+"football practice"
+]
+},
+{
+"w": "practise",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": [
+"You must practise if you want to play well."
+]
+},
+{
+"w": "prefer",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [
+"would prefer"
+],
+"ex": [
+"I prefer football to basketball.",
+"I’d prefer to come with you."
+]
+},
+{
+"w": "prepare",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "present",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"a birthday present"
+]
+},
+{
+"w": "pretty",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "price",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "print",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "printer",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "prize",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "probably",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "problem",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "program",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"a computer program"
+]
+},
+{
+"w": "programme",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"a TV programme"
+]
+},
+{
+"w": "project",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"a school project"
+]
+},
+{
+"w": "pull",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "pupil",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "puppy",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "purple",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "purse",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "push",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "put",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "put on",
+"pos": "phr v",
+"posZh": "动词短语",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "puzzle",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "quarter",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"a quarter of an hour",
+"quarter to/past seven"
+]
+},
+{
+"w": "queen",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "question",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "quick",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "quickly",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "quiet",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": [
+"Please be quiet!",
+"The restaurant was quiet last night."
+]
+},
+{
+"w": "quite",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": [
+"Are you quite sure?",
+"quite old"
+]
+},
+{
+"w": "quiz",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "rabbit",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "race",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"a running race",
+"She raced her brother to the bus stop."
+]
+},
+{
+"w": "racket",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"Can I borrow your tennis racket?"
+]
+},
+{
+"w": "radio",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "railway",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [
+"station"
+],
+"ex": []
+},
+{
+"w": "rain",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "raincoat",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "rainforest",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "rap",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"rap music"
+]
+},
+{
+"w": "read",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "reading",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "ready",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": [
+"When will it be ready?"
+]
+},
+{
+"w": "real",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "really",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "reason",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "receipt",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "receive",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "recently",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "receptionist",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "recipe",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "record",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": [
+"T hey’re recording a new album."
+]
+},
+{
+"w": "red",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "refrigerator",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "relax",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [
+"become happy"
+],
+"ex": []
+},
+{
+"w": "relaxing",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "remember",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "rent",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "repair",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "repeat",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "rest",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"to have a rest",
+"‘Try to rest,’ the doctor said.",
+"the rest of the day"
+]
+},
+{
+"w": "restaurant",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "return",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"my return from holiday",
+"He returned home late.",
+"She returned her library books."
+]
+},
+{
+"w": "review",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "rice",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "rich",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "ride",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "riding",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "right",
+"pos": "n, adj, adv",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"He swam to the right.",
+"your right hand",
+"That’s the right answer.",
+"Turn right here."
+]
+},
+{
+"w": "right hand",
+"pos": "adj",
+"posZh": "形容词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "ring",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"He bought her a gold ring.",
+"Give me a ring if you’re free.",
+"I rang home last night."
+]
+},
+{
+"w": "river",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "road",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "roast",
+"pos": "v, adj",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "rock",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"rock concert"
+]
+},
+{
+"w": "roof",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "room",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"a double room"
+]
+},
+{
+"w": "round",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "roundabout",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "rubber",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"Can you throw the rubbish in the bin?"
+]
+},
+{
+"w": "rugby",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "ruler",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "run",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "runner",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "running",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "sad",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "safe",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "sail",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "sailing",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "salad",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "sale",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"for sale",
+"I bought it in the sale."
+]
+},
+{
+"w": "salt",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "same",
+"pos": "adj, pron",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": [
+"at the same time",
+"Your watch is the same as mine."
+]
+},
+{
+"w": "sandwich",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "Saturday",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "sauce",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "sausage",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "save",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": [
+"to save money",
+"to save time"
+]
+},
+{
+"w": "say",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "scared",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "scarf",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "scary",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "school",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "schoolchild",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "science",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "scientist",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "scissors",
+"pos": "n pl",
+"posZh": "名词复数",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "scooter",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "score",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "screen",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "sea",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "season",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "seat",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "second",
+"pos": "adj, det, n",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "secretary",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "see",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "seem",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": [
+"She seems happy.",
+"It seemed like a good idea."
+]
+},
+{
+"w": "selfie",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "sell",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "send",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "sentence",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "September",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "serious",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": [
+"She is a very serious person."
+]
+},
+{
+"w": "serve",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "set",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "several",
+"pos": "det, pron",
+"posZh": "限定词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "shall",
+"pos": "modal v",
+"posZh": "情态动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "shame",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"What a shame!"
+]
+},
+{
+"w": "shampoo",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "share",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": [
+"Bob and Sam share an office.",
+"Will you share your sandwich with me?",
+"She shared her pictures online."
+]
+},
+{
+"w": "shark",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "she",
+"pos": "pron",
+"posZh": "代词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "sheep",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "sheet",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"a bed sheet",
+"a sheet of paper"
+]
+},
+{
+"w": "shelf",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "ship",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "shirt",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "shoe",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "shop",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "shop assistant",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "shopper",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "shopping",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"Let’s go shopping tomorrow."
+]
+},
+{
+"w": "shopping centre",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "short",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": [
+"a short time"
+]
+},
+{
+"w": "shorts",
+"pos": "n pl",
+"posZh": "名词复数",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "should",
+"pos": "modal v",
+"posZh": "情态动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "shout",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "show",
+"pos": "v, n",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": [
+"Show me your photos.",
+"a film show",
+"show somebody round"
+]
+},
+{
+"w": "shower",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "shut",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "shy",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "sick",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "side",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"this side of the room"
+]
+},
+{
+"w": "sightseeing",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "sign",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "silver",
+"pos": "n, adj",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "similar",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "simple",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "since",
+"pos": "prep",
+"posZh": "介词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "sing",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "singer",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "singing",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "single",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "sink",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "sister",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "sit",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "sit down",
+"pos": "phr v",
+"posZh": "动词短语",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "site",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"internet site"
+]
+},
+{
+"w": "sitting room",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "size",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "skate",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "skateboard",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "skateboarding",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "skating",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "ski",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "skiing",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "skirt",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "sky",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "sleep",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "slice",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "slim",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "slow",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "slowly",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "small",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "smart",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [
+"stylish"
+],
+"ex": []
+},
+{
+"w": "smoke",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "smoking",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "snack",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "snail",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "snake",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "snow",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "snowboard",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "snowboarding",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "so",
+"pos": "conj, adv",
+"posZh": "连词",
+"type": "word",
+"alias": [],
+"ex": [
+"So, I think it’s right.",
+"He ate too much, so he felt ill.",
+"He wanted to go but he didn’t say so."
+]
+},
+{
+"w": "soap",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "soccer",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "social media",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "sock",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "sofa",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "soft",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "software",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "some",
+"pos": "det, pron",
+"posZh": "限定词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "somebody",
+"pos": "pron",
+"posZh": "代词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "someone",
+"pos": "pron",
+"posZh": "代词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "something",
+"pos": "pron",
+"posZh": "代词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "sometimes",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "somewhere",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "son",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "song",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "soon",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "sorry",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": [
+"I’m sorry I’m late.",
+"Sorry, I don’t understand that.",
+"Sorry to hear you’re not we ll."
+]
+},
+{
+"w": "sort",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "sound",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": [
+"That sounds nice.",
+"To sound good/interesting/strange, etc."
+]
+},
+{
+"w": "soup",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "south",
+"pos": "n, adj, adv",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "space",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "spare",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": [
+"I read a lot in my spare time."
+]
+},
+{
+"w": "speak",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "speaker",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "special",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "spell",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "spelling",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "spend",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": [
+"Let’s spend the weekend at the beach.",
+"He spends a lot of money on clothes."
+]
+},
+{
+"w": "spider",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "spoon",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "sport",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "sports centre",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "spring",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"I hate winter but I love spring."
+]
+},
+{
+"w": "square",
+"pos": "n, adj",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "stadium",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "staff",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "stage",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "stairs",
+"pos": "n pl",
+"posZh": "名词复数",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "stamp",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"Put a stamp on the envelope."
+]
+},
+{
+"w": "stand",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": [
+"She was standing at the bus stop."
+]
+},
+{
+"w": "star",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "start",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "station",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "stay",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": [
+"I can’t stay long.",
+"I stayed in New York for 10 days.",
+"The shop stays open late."
+]
+},
+{
+"w": "steak",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "steal",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": [
+"Someone’s stolen my bag!"
+]
+},
+{
+"w": "still",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "stomach",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "stomach ache",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "stop",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "store",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "storm",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "story",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "straight",
+"pos": "adj, adv",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": [
+"a straight line",
+"Go straight on."
+]
+},
+{
+"w": "strange",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": [
+"That’s a strange story!"
+]
+},
+{
+"w": "strawberry",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "street",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "striped",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "stripes",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "strong",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "student",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "studies",
+"pos": "n pl",
+"posZh": "名词复数",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "study",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "stuff",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"That’s where I keep all my stuff."
+]
+},
+{
+"w": "subject",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"What’s your favourite subject at school?",
+"the subject of a talk"
+]
+},
+{
+"w": "success",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "successful",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "such",
+"pos": "det",
+"posZh": "限定词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "suddenly",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "sugar",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "suggest",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": [
+"I suggest having the meeting in the office."
+]
+},
+{
+"w": "suit",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"He was wearing a grey suit."
+]
+},
+{
+"w": "suitcase",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "summer",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "sun",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "Sunday",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "sunglasses",
+"pos": "n pl",
+"posZh": "名词复数",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "sunny",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "supermarket",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "supper",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "suppose",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": [
+"I suppose so.",
+"I suppose you’re right."
+]
+},
+{
+"w": "sure",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": [
+"I’m (not) sure."
+]
+},
+{
+"w": "surf",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": [
+"I like surfing (on) the internet."
+]
+},
+{
+"w": "surfboard",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "surfboarding",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "surfing",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "surname",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "surprise",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "surprised",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "surprising",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "swan",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "sweater",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "sweet",
+"pos": "n, adj",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "swim",
+"pos": "v, n",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": [
+"I swim in the college team.",
+"I’d like to have a swim in the lake."
+]
+},
+{
+"w": "swimming",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "swimming costume",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [
+"bathing suit"
+],
+"ex": []
+},
+{
+"w": "swimming pool",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "swimsuit",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "table",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "table tennis",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "tablet",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"You can take notes using your tablet."
+]
+},
+{
+"w": "tail",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "take",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": [
+"I’ll take it to your room.",
+"It takes three hours."
+]
+},
+{
+"w": "take off",
+"pos": "phr v",
+"posZh": "动词短语",
+"type": "phrase",
+"alias": [],
+"ex": [
+"She took off her shoes."
+]
+},
+{
+"w": "take part",
+"pos": "v",
+"posZh": "动词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "talk",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "tall",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "tasty",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "taxi",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "tea",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "teach",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "teacher",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "team",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "technology",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "teenager",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "telephone",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "television",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [
+"TV"
+],
+"ex": []
+},
+{
+"w": "tell",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "temperature",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"The temperature was below zero."
+]
+},
+{
+"w": "tennis",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "tennis player",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "tent",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "term",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "terrible",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "test",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "text",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "textbook",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "text message",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "than",
+"pos": "prep, conj",
+"posZh": "介词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "thank",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "thanks",
+"pos": "exclam",
+"posZh": "感叹词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "thank you",
+"pos": "exclam",
+"posZh": "感叹词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "that",
+"pos": "conj, pron",
+"posZh": "连词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "the",
+"pos": "det",
+"posZh": "限定词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "theatre",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [
+"theater"
+],
+"ex": []
+},
+{
+"w": "their",
+"pos": "det",
+"posZh": "限定词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "theirs",
+"pos": "pron",
+"posZh": "代词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "them",
+"pos": "pron",
+"posZh": "代词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "themselves",
+"pos": "pron",
+"posZh": "代词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "then",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "there",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "these",
+"pos": "det, pron",
+"posZh": "限定词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "they",
+"pos": "pron",
+"posZh": "代词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "thin",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "thing",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "think",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "thirsty",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "this",
+"pos": "det, pron",
+"posZh": "限定词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "those",
+"pos": "det, pron",
+"posZh": "限定词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "through",
+"pos": "prep",
+"posZh": "介词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "throw",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "thunderstorm",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "Thursday",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "ticket",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "tidy",
+"pos": "adj, v",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "tidy up",
+"pos": "v",
+"posZh": "动词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "tie",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "tiger",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "tights",
+"pos": "n pl",
+"posZh": "名词复数",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "till",
+"pos": "prep",
+"posZh": "介词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "time",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "timetable",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "tired",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "title",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "to",
+"pos": "prep",
+"posZh": "介词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "toast",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "today",
+"pos": "n, adv",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "toe",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "together",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "toilet",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "tomato",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "tomorrow",
+"pos": "n, adv",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "tonight",
+"pos": "n, adv",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "tortoise",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "too",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "tooth",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "toothache",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "toothbrush",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "top",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"the top of the page"
+]
+},
+{
+"w": "topic",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "total",
+"pos": "adj, n",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "tour",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"The band are on tour this month."
+]
+},
+{
+"w": "tour guide",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "tourist",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "tourist information centre",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "towel",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "town",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "toy",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "traffic",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "traffic light",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "train",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"sport"
+]
+},
+{
+"w": "training",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [
+"transitive and intransitive"
+],
+"ex": [
+"sport"
+]
+},
+{
+"w": "trainer",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"a pair of trainers"
+]
+},
+{
+"w": "tram",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "transport",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "travel",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "tree",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "trip",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "trouble",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "trousers",
+"pos": "n pl",
+"posZh": "名词复数",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "true",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "try",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "try on",
+"pos": "phr v",
+"posZh": "动词短语",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "T-shirt",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "Tuesday",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "tune",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [
+"music"
+],
+"ex": []
+},
+{
+"w": "turn",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "turn off",
+"pos": "phr v",
+"posZh": "动词短语",
+"type": "phrase",
+"alias": [],
+"ex": [
+"Turn the TV off."
+]
+},
+{
+"w": "turn on",
+"pos": "phr v",
+"posZh": "动词短语",
+"type": "phrase",
+"alias": [],
+"ex": [
+"Turn the heating on."
+]
+},
+{
+"w": "twice",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "type",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "tyre",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "umbrella",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "uncle",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "under",
+"pos": "prep",
+"posZh": "介词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "underground",
+"pos": "n, adj",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "understand",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "unfortunately",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "unhappy",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "uniform",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "university",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "until",
+"pos": "prep",
+"posZh": "介词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "unusual",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "up",
+"pos": "prep, adv",
+"posZh": "介词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "upload",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "upset",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "upstairs",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "us",
+"pos": "pron",
+"posZh": "代词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "use",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "useful",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "usual",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "usually",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "v",
+"pos": "prep",
+"posZh": "介词",
+"type": "word",
+"alias": [
+"versus"
+],
+"ex": [
+"Manchester United v Liverpool"
+]
+},
+{
+"w": "variety",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "various",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "vegetable",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "very",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "video",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "video game",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "view",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "village",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "violin",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "visit",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "visitor",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "vocabulary",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "volleyball",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "wait",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "waiter",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "waitress",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "wake",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "wake up",
+"pos": "phr v",
+"posZh": "动词短语",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "walk",
+"pos": "v, n",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": [
+"I often go for a walk in the evening."
+]
+},
+{
+"w": "walking",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "wall",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "wallet",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "want",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "wardrobe",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "warm",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "wash",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "washing machine",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "washing-up",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "wash up",
+"pos": "phr v",
+"posZh": "动词短语",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "watch",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "water",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "way",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"Do it this way.",
+"one-way street",
+"Is this the quickest way home?",
+"by the way (prep phr)"
+]
+},
+{
+"w": "we",
+"pos": "pron",
+"posZh": "代词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "wear",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "weather",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "web",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "web page",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "website",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "Wednesday",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "week",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "weekday",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "weekend",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "weekly",
+"pos": "adj, adv",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "welcome",
+"pos": "adj, exclam",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": [
+"You’re welcome",
+"Welcome to London!"
+]
+},
+{
+"w": "well",
+"pos": "adv, adj",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "well known",
+"pos": "adj",
+"posZh": "形容词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "west",
+"pos": "n, adj, adv",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "wet",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "whale",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "what",
+"pos": "det, pron",
+"posZh": "限定词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "wheel",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "when",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "where",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "which",
+"pos": "det, pron",
+"posZh": "限定词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "while",
+"pos": "conj",
+"posZh": "连词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "white",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "who",
+"pos": "pron",
+"posZh": "代词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "whole",
+"pos": "adj, n",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": [
+"the whole world",
+"the whole of July"
+]
+},
+{
+"w": "whose",
+"pos": "det, pron",
+"posZh": "限定词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "why",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "wide",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "wife",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "wifi",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "wild",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": [
+"wild animals"
+]
+},
+{
+"w": "wildlife",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "will",
+"pos": "modal v",
+"posZh": "情态动词",
+"type": "word",
+"alias": [
+"'ll"
+],
+"ex": []
+},
+{
+"w": "win",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "wind",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "window",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "windsurfing",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "windy",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "wing",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "winner",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "winter",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "wish",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": [
+"Best wishes"
+]
+},
+{
+"w": "with",
+"pos": "prep",
+"posZh": "介词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "without",
+"pos": "prep",
+"posZh": "介词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "woman",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "wonderful",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "wood",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "wooden",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "wool",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "word",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "work",
+"pos": "n, v",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "work out",
+"pos": "phr v",
+"posZh": "动词短语",
+"type": "phrase",
+"alias": [],
+"ex": [
+"exercise"
+]
+},
+{
+"w": "worker",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "working hours",
+"pos": "n",
+"posZh": "名词",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "world",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "worried",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "worry",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "worse",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "worst",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "would",
+"pos": "modal v",
+"posZh": "情态动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "wow",
+"pos": "exclam",
+"posZh": "感叹词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "write",
+"pos": "v",
+"posZh": "动词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "write down",
+"pos": "phr v",
+"posZh": "动词短语",
+"type": "phrase",
+"alias": [],
+"ex": []
+},
+{
+"w": "writer",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "writing",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "wrong",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "Yeah!",
+"pos": "exclam",
+"posZh": "感叹词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "year",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "yellow",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "yes",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "yesterday",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "yet",
+"pos": "adv",
+"posZh": "副词",
+"type": "word",
+"alias": [],
+"ex": [
+"Has he arrived yet?"
+]
+},
+{
+"w": "yogurt",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "you",
+"pos": "pron",
+"posZh": "代词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "young",
+"pos": "adj",
+"posZh": "形容词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "your",
+"pos": "det",
+"posZh": "限定词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "yours",
+"pos": "pron",
+"posZh": "代词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "yourself",
+"pos": "pron",
+"posZh": "代词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "zebra",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "zero",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+},
+{
+"w": "zoo",
+"pos": "n",
+"posZh": "名词",
+"type": "word",
+"alias": [],
+"ex": []
+}
+]
