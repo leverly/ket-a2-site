@@ -684,7 +684,7 @@
     var pageSize = opts.pageSize || 40;
     var page = 0;
     var query = '';
-    var filter = 'all';
+    var filter = opts.filter || 'all';
 
     function match(w) {
       if (filter === 'b1' && w.tag !== 'b1') return false;
@@ -790,6 +790,7 @@
       });
     }
     document.querySelectorAll('[data-filter]').forEach(function (c) {
+      c.classList.toggle('on', c.getAttribute('data-filter') === filter);
       c.addEventListener('click', function () {
         document.querySelectorAll('[data-filter]').forEach(function (x) { x.classList.remove('on'); });
         c.classList.add('on');

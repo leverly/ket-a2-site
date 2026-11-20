@@ -471,7 +471,7 @@ function buildWords() {
     <a class="btn sm primary" href="quiz.html">去闯关背单词 →</a>
   </div>
   <div class="chips" style="margin-bottom:18px">
-    <button class="chip on" data-filter="all">全部词条</button>
+    <button class="chip" data-filter="all">全部词条</button>
     <button class="chip" data-filter="b1">核心高频</button>
     <button class="chip" data-filter="b2">中频主力</button>
     <button class="chip" data-filter="b3">拓展词汇</button>
@@ -485,7 +485,7 @@ function buildWords() {
   const script = `
 const { WORDS, STATS } = window.PET_DATA;
 const P = window.PET;
-P.renderWordList({ mount: '#wlist', words: WORDS, pageSize: 40, search: '#wq', onKnown: true });
+P.renderWordList({ mount: '#wlist', words: WORDS, pageSize: 40, search: '#wq', filter: 'new', onKnown: true });
 function drawKnown() {
   const n = P.knownCount();
   const el = document.querySelector('#kKnown');
