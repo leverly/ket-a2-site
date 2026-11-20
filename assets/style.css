@@ -126,6 +126,7 @@ code { font-family: var(--mono); font-size: .88em; background: var(--code-bg); p
 mark { background: var(--mark); color: inherit; padding: 0 2px; border-radius: 3px; }
 ::selection { background: var(--accent); color: #fff; }
 button { font: inherit; color: inherit; }
+.nb { white-space: nowrap; }
 
 /* ---------------- 布局 ---------------- */
 .wrap { max-width: var(--max); margin: 0 auto; padding: 0 24px; }

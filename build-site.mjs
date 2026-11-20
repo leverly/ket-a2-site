@@ -755,7 +755,7 @@ function buildStudy() {
 <div class="page-head">
   <div class="crumb"><a href="index.html">首页</a> / 听音背单词</div>
   <h1>听音闯关背单词</h1>
-  <p class="lede">按 <b>艾宾浩斯遗忘曲线</b> 科学排期：答错 10 分钟后再现，答稳了自动拉长间隔（1 天 → 3 天 → 7 天 → 21 天+），每词自带纯正剑桥英音。</p>
+  <p class="lede">按 <b>艾宾浩斯遗忘曲线</b> 科学排期：答错 10 分钟后再现，答稳了自动拉长间隔 <span class="nb">（1 天 · 3 天 · 7 天 · 21 天+）</span>，每词自带纯正剑桥英音。</p>
 
   <div class="scope-bar">
     <div class="scope-bar-label">选择背词词库范围</div>
