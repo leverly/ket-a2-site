@@ -855,6 +855,7 @@ for e in entries:
     phonetic = ((row or {}).get('phonetic') or '').strip()
     tag = cefr_tag(row) if row else 'b2'
 
+    curated = w in KET_OVERRIDE or key in OVERRIDE
     if w in KET_OVERRIDE:
         zh = KET_OVERRIDE[w]
     elif key in OVERRIDE:
@@ -893,7 +894,7 @@ for e in entries:
     if w.lower() in DROP:
         continue
     # 通用清洗：丢掉结尾的 1–2 字生僻义项（如 埠 / 写真 / 煤屑）
-    if zh and '；' in zh:
+    if zh and '；' in zh and not curated:
         parts = [p2.strip() for p2 in zh.split('；') if p2.strip()]
         KEEP2 = {'也', '很', '更', '再', '才', '就', '都', '能', '会', '要', '做', '去', '来'}
         if len(parts) > 1 and len(parts[-1]) <= 2 and parts[-1] not in KEEP2:
