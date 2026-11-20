@@ -240,10 +240,6 @@ button { font: inherit; color: inherit; }
   background: var(--accent-grad); -webkit-background-clip: text; background-clip: text;
   color: transparent;
 }
-/* 中文标题与导语按词/标点换行，避免在词语中间劈开；窄屏回退到可断 */
-.hero h1, .page-head h1, .hero .lede, .page-head .lede {
-  word-break: keep-all; overflow-wrap: break-word;
-}
 .hero .lede { margin-top: 18px; color: var(--text-2); font-size: 1.01rem; line-height: 1.75; }
 .hero-cta { display: flex; gap: 12px; margin-top: 26px; flex-wrap: wrap; }
 .hero-trust {
@@ -681,7 +677,8 @@ table.gtable td:first-child { font-weight: 600; }
 /* ---------------- 页面头部 ---------------- */
 .page-head { padding: 40px 0 6px; }
 .page-head h1 { font-size: clamp(1.65rem, 3.6vw, 2.35rem); letter-spacing: -.025em; }
-.page-head .lede { color: var(--text-2); max-width: 700px; margin-top: 10px; font-size: .97rem; line-height: 1.72; }
+/* 说明文字不再限制宽度，与容器同宽，避免右侧大片留白 */
+.page-head .lede { color: var(--text-2); margin-top: 10px; font-size: .97rem; line-height: 1.78; }
 .crumb { font-size: .8rem; color: var(--text-3); margin-bottom: 10px; display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
 .crumb a { color: var(--text-3); }
 .crumb a:hover { color: var(--accent); }
