@@ -154,8 +154,9 @@ const FOOTER = (base) => `<footer class="foot">
       <a href="${base}grammar.html">${GRAMMAR_STATS.sections} 大语法族</a>
     </div>
     <div class="col">
-      <h4>数据与帮助</h4>
+      <h4>数据与说明</h4>
       <a href="${base}stats.html">学习数据与备份</a>
+      <a href="${base}about.html">内容规模与口径</a>
       <a href="${base}index.html#faq">常见问题</a>
     </div>
   </div>
@@ -1617,9 +1618,9 @@ refreshPlan();
 }
 
 /* ==========================================================
-   9. 学习数据 & 档案备份 + 官方口径说明
+   9. 内容规模与口径说明（与个人进度无关的静态统计）
    ========================================================== */
-function buildStats() {
+function buildAbout() {
   const tagRows = [
     ['核心高频 b1（卷面最常见）', STATS.b1],
     ['中频主力 b2（阅读写作主力）', STATS.b2],
@@ -1632,9 +1633,74 @@ function buildStats() {
     return `<tr><td>${g.icon} ${esc(g.name)}</td><td style="text-align:right">${g.topics.length}</td><td style="text-align:right">${n}</td><td style="text-align:right">${q}</td></tr>`;
   }).join('');
 
+  write('about.html', page({
+    title: '内容规模与口径',
+    desc: '本站收录的官方词表规模、频档分布、语法题量与数据来源口径说明。',
+    active: 'about',
+    dataKeys: [],
+    body: `
+<div class="page-head">
+  <div class="crumb"><a href="index.html">首页</a> / 内容规模与口径</div>
+  <h1>内容规模与口径说明</h1>
+  <p class="lede">这里是与个人学习进度无关的静态内容统计：收录了多少官方词条、语法题量如何分布、数据从哪来。你的学习进度请到<a href="stats.html">学习数据</a>查看。</p>
+</div>
+
+<section class="section" style="margin-top:24px">
+  <div class="section-head">
+    <div class="section-head-left">
+      <span class="kicker">官方内容规模与权威口径</span>
+      <h2>本站全量词表与题库数据明细</h2>
+      <span class="sub">所有数字均由构建脚本实时统计，对应 Cambridge A2 Key (2025) 官方词表</span>
+    </div>
+  </div>
+  <div class="kv">
+    <div class="k"><b>${STATS.words}</b><span>官方单词</span></div>
+    <div class="k"><b>${STATS.phrases}</b><span>官方短语</span></div>
+    <div class="k"><b>${STATS.total}</b><span>词条总计</span></div>
+    <div class="k"><b>${STATS.withExample}</b><span>带官方例句</span></div>
+    <div class="k"><b>${STATS.topics}</b><span>官方话题</span></div>
+  </div>
+  <table class="gtable" style="margin-top:20px">
+    <thead><tr><th>频档分级</th><th style="text-align:right">词条数</th><th style="text-align:right">占比</th></tr></thead>
+    <tbody>${tagRows.map(([n, v]) => `<tr><td>${n}</td><td style="text-align:right">${v}</td><td style="text-align:right">${(v / STATS.total * 100).toFixed(1)}%</td></tr>`).join('')}</tbody>
+  </table>
+</section>
+
+<section class="section">
+  <div class="section-head"><h2>语法体系与题量分布</h2></div>
+  <table class="gtable">
+    <thead><tr><th>语法族</th><th style="text-align:right">考点数</th><th style="text-align:right">易错避坑</th><th style="text-align:right">配套题量</th></tr></thead>
+    <tbody>${gramRows}</tbody>
+  </table>
+</section>
+
+<section class="section">
+  <div class="section-head"><h2>${STATS.topics} 个官方话题词量</h2><span class="sub">部分多义词归属多个话题</span></div>
+  <table class="gtable">
+    <thead><tr><th>中文话题</th><th>剑桥官方英文名</th><th style="text-align:right">词数</th></tr></thead>
+    <tbody>${topicRows}</tbody>
+  </table>
+</section>
+
+<section class="section">
+  <div class="section-head"><h2>数据来源与口径说明</h2></div>
+  <div class="note">
+    <p><b>官方词表</b>：源自 Cambridge University Press &amp; Assessment 发布的 <i>A2 Key and A2 Key for Schools Vocabulary List</i>（August 2025），正文词条 + 附录 2 的 ${STATS.topics} 个话题表；附录 1 的封闭清单（数字、星期、月份等）未逐条计入总数。</p>
+    <p><b>中文释义与英音</b>：释义结合官方词性筛选并对 500+ 高频多义词、短语和英美差异词做了人工精校；全部 ${STATS.total.toLocaleString('en-US')} 条词条均预合成纯正英音音频，无外链依赖。</p>
+    <p><b>频档与语法题库</b>：频档按真实英语语料词频启发式分为高频/中频/低频三档；语法考点与 ${Q_STATS.total} 道精练题按 A2 Key 公开考试说明（Language Specifications、Reading Part 4/5 与 Writing 常见语法点）原创编写。</p>
+  </div>
+</section>
+`,
+  }));
+}
+
+/* ==========================================================
+   10. 学习数据 & 档案备份
+   ========================================================== */
+function buildStats() {
   write('stats.html', page({
     title: '学习数据与统计',
-    desc: '实时追踪 KET 备考进度、近 7 天学习活跃度与词表题库分布，支持跨设备导出和导入学习档案。',
+    desc: '实时追踪 KET 备考进度、近 7 天学习活跃度与各考点掌握情况，支持跨设备导出和导入学习档案。',
     active: 'stats',
     dataKeys: ['STATS', 'GRAMMAR'],
     body: `
@@ -1689,48 +1755,8 @@ function buildStats() {
 </section>
 
 <section class="section">
-  <div class="section-head">
-    <div class="section-head-left">
-      <span class="kicker">官方内容规模与权威口径</span>
-      <h2>本站全量词表与题库数据明细</h2>
-      <span class="sub">所有数字均由构建脚本实时统计，对应 Cambridge A2 Key (2025) 官方词表</span>
-    </div>
-  </div>
-  <div class="kv">
-    <div class="k"><b>${STATS.words}</b><span>官方单词</span></div>
-    <div class="k"><b>${STATS.phrases}</b><span>官方短语</span></div>
-    <div class="k"><b>${STATS.total}</b><span>词条总计</span></div>
-    <div class="k"><b>${STATS.withExample}</b><span>带官方例句</span></div>
-    <div class="k"><b>${STATS.topics}</b><span>官方话题</span></div>
-  </div>
-  <table class="gtable" style="margin-top:20px">
-    <thead><tr><th>频档分级</th><th style="text-align:right">词条数</th><th style="text-align:right">占比</th></tr></thead>
-    <tbody>${tagRows.map(([n, v]) => `<tr><td>${n}</td><td style="text-align:right">${v}</td><td style="text-align:right">${(v / STATS.total * 100).toFixed(1)}%</td></tr>`).join('')}</tbody>
-  </table>
-</section>
-
-<section class="section">
-  <div class="section-head"><h2>语法体系与题量分布</h2></div>
-  <table class="gtable">
-    <thead><tr><th>语法族</th><th style="text-align:right">考点数</th><th style="text-align:right">易错避坑</th><th style="text-align:right">配套题量</th></tr></thead>
-    <tbody>${gramRows}</tbody>
-  </table>
-</section>
-
-<section class="section">
-  <div class="section-head"><h2>${STATS.topics} 个官方话题词量</h2><span class="sub">部分多义词归属多个话题</span></div>
-  <table class="gtable">
-    <thead><tr><th>中文话题</th><th>剑桥官方英文名</th><th style="text-align:right">词数</th></tr></thead>
-    <tbody>${topicRows}</tbody>
-  </table>
-</section>
-
-<section class="section">
-  <div class="section-head"><h2>数据来源与口径说明</h2></div>
   <div class="note">
-    <p><b>官方词表</b>：源自 Cambridge University Press &amp; Assessment 发布的 <i>A2 Key and A2 Key for Schools Vocabulary List</i>（August 2025），正文词条 + 附录 2 的 ${STATS.topics} 个话题表；附录 1 的封闭清单（数字、星期、月份等）未逐条计入总数。</p>
-    <p><b>中文释义与英音</b>：释义结合官方词性筛选并对 500+ 高频多义词、短语和英美差异词做了人工精校；全部 ${STATS.total.toLocaleString('en-US')} 条词条均预合成纯正英音音频，无外链依赖。</p>
-    <p><b>频档与语法题库</b>：频档按真实英语语料词频启发式分为高频/中频/低频三档；语法考点与 ${Q_STATS.total} 道精练题按 A2 Key 公开考试说明（Language Specifications、Reading Part 4/5 与 Writing 常见语法点）原创编写。</p>
+    本站收录的官方词表规模、频档分布、语法题量与数据来源口径等<b>与个人进度无关的内容统计</b>，已单独整理在 <a href="about.html">内容规模与口径</a> 页面。
   </div>
 </section>
 `,
@@ -1837,6 +1863,7 @@ function main() {
   buildStudy();
   buildDrill();
   buildWrongBook();
+  buildAbout();
   buildStats();
   buildPlan();
 
