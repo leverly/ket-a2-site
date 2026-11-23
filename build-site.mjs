@@ -754,13 +754,13 @@ function buildStudy() {
   <div class="scope-bar">
     <div class="scope-bar-label">选择背词词库范围</div>
     <div class="chips" id="scopeBar">
-      <button class="chip on" data-s="b1">核心高频 <b>${STATS.b1}</b></button>
+      <button class="chip on" data-s="all">全部词条 <b>${STATS.total}</b></button>
+      <button class="chip" data-s="b1">核心高频 <b>${STATS.b1}</b></button>
       <button class="chip" data-s="b2">中频主力 <b>${STATS.b2}</b></button>
       <button class="chip" data-s="b3">拓展词汇 <b>${STATS.b3}</b></button>
-      <button class="chip" data-s="all">全部词条 <b>${STATS.total}</b></button>
       <button class="chip" data-s="phrase">只背短语 <b>${STATS.phrases}</b></button>
     </div>
-    <p class="scope-bar-hint" id="scopeHint">先拿下卷面最常见的高频词</p>
+    <p class="scope-bar-hint" id="scopeHint">全部 ${STATS.total.toLocaleString('en-US')} 条官方词表与短语，覆盖最全</p>
   </div>
 </div>
 
@@ -839,7 +839,7 @@ function buildStudy() {
     script: `
 const { WORDS } = window.PET_DATA;
 const P = window.PET;
-let mode = 'mix', src = 'b1', card = 'choice';
+let mode = 'mix', src = 'all', card = 'choice';
 let autoSay = (function () {
   try { var v = localStorage.getItem('ket-autosay'); return v === null ? true : v === '1'; } catch (e) { return true; }
 })();
