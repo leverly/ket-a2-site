@@ -764,18 +764,6 @@ function buildStudy() {
     <div class="k"><b id="kScope">—</b><span>本范围总词量</span></div>
   </div>
 
-  <div class="scope-bar" style="margin-top:14px">
-    <div class="scope-bar-label">选择背词词库范围</div>
-    <div class="chips" id="scopeBar">
-      <button class="chip on" data-s="all">全部词条 <b>${STATS.total}</b></button>
-      <button class="chip" data-s="b1">核心高频 <b>${STATS.b1}</b></button>
-      <button class="chip" data-s="b2">中频主力 <b>${STATS.b2}</b></button>
-      <button class="chip" data-s="b3">拓展词汇 <b>${STATS.b3}</b></button>
-      <button class="chip" data-s="phrase">只背短语 <b>${STATS.phrases}</b></button>
-    </div>
-    <p class="scope-bar-hint" id="scopeHint">全部 ${STATS.total.toLocaleString('en-US')} 条官方词表与短语，覆盖最全</p>
-  </div>
-
   <div class="card" style="padding:20px 24px;margin-top:14px">
     <div class="today-goal-row">
       <span>今日已背 <b id="kToday">0</b> / <b id="kGoal">20</b> 词 · 🔥 连续打卡 <b id="kStreak">0</b> 天</span>
@@ -803,6 +791,18 @@ function buildStudy() {
     </div>
 
     <div class="setup-grid">
+      <div class="setup-group wide">
+        <div class="kicker">词库范围</div>
+        <div class="chips" id="scopeBar">
+          <button class="chip on" data-s="all">全部词条 <b>${STATS.total}</b></button>
+          <button class="chip" data-s="b1">核心高频 <b>${STATS.b1}</b></button>
+          <button class="chip" data-s="b2">中频主力 <b>${STATS.b2}</b></button>
+          <button class="chip" data-s="b3">拓展词汇 <b>${STATS.b3}</b></button>
+          <button class="chip" data-s="phrase">只背短语 <b>${STATS.phrases}</b></button>
+        </div>
+        <p class="setup-hint" id="scopeHint">全部 ${STATS.total.toLocaleString('en-US')} 条官方词表与短语，覆盖最全</p>
+      </div>
+
       <div class="setup-group">
         <div class="kicker">学习模式</div>
         <div class="chips" id="cardChips">
@@ -830,6 +830,11 @@ function buildStudy() {
           <button class="chip on" id="sfxToggle">提示音：开</button>
         </div>
         <p class="setup-hint" id="sayHint">每题出现自动朗读 3 遍纯正英音，耳朵眼睛一起记</p>
+      </div>
+
+      <div class="setup-group">
+        <div class="kicker">本轮词数</div>
+        <p class="setup-hint" style="margin-top:0">每轮出 <b id="lenEcho">20</b> 词，与上方「每日目标」保持一致</p>
       </div>
     </div>
 
@@ -889,6 +894,7 @@ function refreshDaily() {
   document.querySelectorAll('#goalChips .chip').forEach(c => {
     c.classList.toggle('on', parseInt(c.getAttribute('data-goal'), 10) === P.goal());
   });
+  set('#lenEcho', P.goal());
 }
 refreshDaily();
 document.addEventListener('pet:daily', refreshDaily);

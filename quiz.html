@@ -9,7 +9,7 @@
 <meta property="og:title" content="听音背单词 · 遗忘曲线闯关 · KET 启航">
 <meta property="og:description" content="用艾宾浩斯遗忘曲线背 1716 个 KET 官方词条：纯正英音自动朗读，支持四选一闯关与闪卡回忆双模式。">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%232563eb'/%3E%3Cstop offset='1' stop-color='%234f46e5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='32' height='32' rx='9' fill='url(%23g)'/%3E%3Ctext x='16' y='22' font-family='system-ui,sans-serif' font-size='16' font-weight='800' fill='%23fff' text-anchor='middle'%3EP%3C/text%3E%3C/svg%3E">
-<link rel="stylesheet" href="assets/style.css?v=60e29e88">
+<link rel="stylesheet" href="assets/style.css?v=16ea8e11">
 <script>try{var m=JSON.parse(localStorage.getItem('ket-theme-manual')||'null');var h=new Date().getHours();var t=(m==='light'||m==='dark')?m:((h>=19||h<6)?'dark':'light');document.documentElement.setAttribute('data-theme',t);}catch(e){var h2=new Date().getHours();document.documentElement.setAttribute('data-theme',(h2>=19||h2<6)?'dark':'light');}</script>
 </head>
 <body data-base="">
@@ -48,18 +48,6 @@
     <div class="k"><b id="kScope">—</b><span>本范围总词量</span></div>
   </div>
 
-  <div class="scope-bar" style="margin-top:14px">
-    <div class="scope-bar-label">选择背词词库范围</div>
-    <div class="chips" id="scopeBar">
-      <button class="chip on" data-s="all">全部词条 <b>1716</b></button>
-      <button class="chip" data-s="b1">核心高频 <b>683</b></button>
-      <button class="chip" data-s="b2">中频主力 <b>865</b></button>
-      <button class="chip" data-s="b3">拓展词汇 <b>168</b></button>
-      <button class="chip" data-s="phrase">只背短语 <b>127</b></button>
-    </div>
-    <p class="scope-bar-hint" id="scopeHint">全部 1,716 条官方词表与短语，覆盖最全</p>
-  </div>
-
   <div class="card" style="padding:20px 24px;margin-top:14px">
     <div class="today-goal-row">
       <span>今日已背 <b id="kToday">0</b> / <b id="kGoal">20</b> 词 · 🔥 连续打卡 <b id="kStreak">0</b> 天</span>
@@ -87,6 +75,18 @@
     </div>
 
     <div class="setup-grid">
+      <div class="setup-group wide">
+        <div class="kicker">词库范围</div>
+        <div class="chips" id="scopeBar">
+          <button class="chip on" data-s="all">全部词条 <b>1716</b></button>
+          <button class="chip" data-s="b1">核心高频 <b>683</b></button>
+          <button class="chip" data-s="b2">中频主力 <b>865</b></button>
+          <button class="chip" data-s="b3">拓展词汇 <b>168</b></button>
+          <button class="chip" data-s="phrase">只背短语 <b>127</b></button>
+        </div>
+        <p class="setup-hint" id="scopeHint">全部 1,716 条官方词表与短语，覆盖最全</p>
+      </div>
+
       <div class="setup-group">
         <div class="kicker">学习模式</div>
         <div class="chips" id="cardChips">
@@ -114,6 +114,11 @@
           <button class="chip on" id="sfxToggle">提示音：开</button>
         </div>
         <p class="setup-hint" id="sayHint">每题出现自动朗读 3 遍纯正英音，耳朵眼睛一起记</p>
+      </div>
+
+      <div class="setup-group">
+        <div class="kicker">本轮词数</div>
+        <p class="setup-hint" style="margin-top:0">每轮出 <b id="lenEcho">20</b> 词，与上方「每日目标」保持一致</p>
       </div>
     </div>
 
@@ -214,6 +219,7 @@ function refreshDaily() {
   document.querySelectorAll('#goalChips .chip').forEach(c => {
     c.classList.toggle('on', parseInt(c.getAttribute('data-goal'), 10) === P.goal());
   });
+  set('#lenEcho', P.goal());
 }
 refreshDaily();
 document.addEventListener('pet:daily', refreshDaily);
