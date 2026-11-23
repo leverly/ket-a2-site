@@ -784,6 +784,7 @@ function buildStudy() {
     <div class="k"><b id="kLeft">—</b><span>尚未学习</span></div>
     <div class="k"><b id="kTotal">—</b><span>已学词数（牢固 <b id="kMature" style="display:inline;font-size:1em;color:var(--ok)">0</b>）</span></div>
     <div class="k"><b id="kDue" style="color:var(--accent)">—</b><span>今日待复习</span></div>
+    <div class="k"><b id="kAcc" style="color:var(--ok)">—</b><span id="kAccSub">背词准确率</span></div>
     <div class="k"><b id="kScope">—</b><span>本范围总词量</span></div>
   </div>
 </section>
@@ -865,9 +866,13 @@ function refreshKv() {
   set('#kTotal', learned);
   set('#kMature', mature);
   set('#kDue', due);
+  const acc = P.wordAcc();
+  set('#kAcc', acc.n ? acc.rate + '%' : '—');
+  set('#kAccSub', acc.n ? '背词准确率（' + acc.ok + ' 对 / ' + acc.no + ' 错）' : '背词准确率');
 }
 refreshKv();
 document.addEventListener('pet:srs', refreshKv);
+document.addEventListener('pet:wacc', refreshKv);
 
 function refreshDaily() {
   const set = (id, v) => { const e = document.querySelector(id); if (e) e.textContent = v; };

@@ -343,7 +343,20 @@
     document.dispatchEvent(new CustomEvent('pet:srs', { detail: { word: w } }));
     return r;
   };
-  P.srsReset = function () { srs = {}; store(SRS_KEY, srs); document.dispatchEvent(new CustomEvent('pet:srs', { detail: { reset: true } })); };
+  P.srsReset = function () { srs = {}; store(SRS_KEY, srs); wacc = { ok: 0, no: 0 }; store(WACC_KEY, wacc); document.dispatchEvent(new CustomEvent('pet:srs', { detail: { reset: true } })); };
+
+  /* ---------------- 背词准确率（只统计明确的对/错，闪卡「模糊」不计） ---------------- */
+  var WACC_KEY = 'ket-wacc-v1';
+  var wacc = load(WACC_KEY, { ok: 0, no: 0 }) || { ok: 0, no: 0 };
+  P.wordAcc = function () {
+    var n = (wacc.ok || 0) + (wacc.no || 0);
+    return { ok: wacc.ok || 0, no: wacc.no || 0, n: n, rate: n ? Math.round(wacc.ok / n * 100) : null };
+  };
+  P.wordAccAdd = function (ok) {
+    if (ok) wacc.ok = (wacc.ok || 0) + 1; else wacc.no = (wacc.no || 0) + 1;
+    store(WACC_KEY, wacc);
+    document.dispatchEvent(new CustomEvent('pet:wacc', { detail: { ok: !!ok } }));
+  };
 
   /* ---------------- 答题记录 ---------------- */
   var QLOG_KEY = 'ket-qlog-v2';
@@ -456,6 +469,7 @@
       daylog: daylog,
       goal: goal,
       wbook: wbook,
+      wacc: wacc,
       qlog: qlog,
       profile: profile,
       plan: planDoneMap
@@ -471,6 +485,7 @@
     if (d.daylog) { daylog = d.daylog; store(DAYLOG_KEY, daylog); }
     if (d.goal) { goal = d.goal; store(GOAL_KEY, goal); }
     if (d.wbook) { wbook = d.wbook; store(WBOOK_KEY, wbook); }
+    if (d.wacc) { wacc = d.wacc; store(WACC_KEY, wacc); }
     if (d.qlog) { qlog = d.qlog; store(QLOG_KEY, qlog); }
     if (d.profile) { profile = Object.assign(profile, d.profile); store(PROFILE_KEY, profile); }
     if (d.plan) { planDoneMap = d.plan; store(PLAN_KEY, planDoneMap); }
@@ -1292,6 +1307,9 @@
       // 答对即标记为已掌握，答错则撤销标记；闪卡的「模糊」不动标记
       if (g >= 2) P.setKnown(w.w, true);
       else if (g === 0) P.setKnown(w.w, false);
+      // 准确率只统计明确的对错，「有点模糊」不计入
+      if (g >= 2) P.wordAccAdd(true);
+      else if (g === 0) P.wordAccAdd(false);
       if (opts.onRate) opts.onRate(w, g);
       var st = host.querySelector('#qs');
       if (st) st.textContent = '🔥 连击 ' + streak;
