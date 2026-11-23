@@ -1006,16 +1006,6 @@ function buildDrill() {
   </div>
 </section>
 
-<section class="section" id="weakSection" style="display:none;margin-top:28px">
-  <div class="section-head">
-    <div class="section-head-left">
-      <h2>各考点掌握诊断</h2>
-      <span class="sub">答满 3 题的考点按正确率从低到高排列，红色项建议重点重练</span>
-    </div>
-  </div>
-  <div id="weakList"></div>
-</section>
-
 <section class="section" style="margin-top:28px" id="setup">
   <div class="card setup-card">
     <div class="setup-head">
@@ -1113,24 +1103,6 @@ function refreshStats() {
   set('#kRate', n ? Math.round(ok / n * 100) + '%' : '—');
   set('#kWrong', wrong);
   const wn = document.querySelector('#wrongN'); if (wn) wn.textContent = wrong;
-
-  const sec = document.querySelector('#weakSection');
-  const list = document.querySelector('#weakList');
-  const rows = st.filter(x => x.n >= 3).sort((a, b) => a.rate - b.rate);
-  if (rows.length && list) {
-    sec.style.display = '';
-    list.innerHTML = '<div class="wordlist">' + rows.map(x => {
-      const pct = Math.round(x.rate * 100);
-      const cls = pct < 60 ? 'bar rose' : pct < 80 ? 'bar warn' : 'bar ok';
-      return '<div class="wrow" style="grid-template-columns:1.4fr 110px 1fr auto;cursor:default">' +
-        '<span class="w" style="cursor:default">' + P.esc(TNAME.get(x.topic) || x.topic) + '</span>' +
-        '<span class="pos">' + x.ok + ' / ' + x.n + ' 题</span>' +
-        '<span class="' + cls + '"><i style="width:' + pct + '%"></i></span>' +
-        '<span class="flag">' + pct + '%</span></div>';
-    }).join('') + '</div>';
-  } else if (sec) {
-    sec.style.display = 'none';
-  }
 }
 refreshStats();
 document.addEventListener('pet:qlog', refreshStats);
@@ -1664,7 +1636,7 @@ function buildStats() {
     title: '学习数据与统计',
     desc: '实时追踪 KET 备考进度、近 7 天学习活跃度与词表题库分布，支持跨设备导出和导入学习档案。',
     active: 'stats',
-    dataKeys: ['STATS'],
+    dataKeys: ['STATS', 'GRAMMAR'],
     body: `
 <div class="page-head">
   <div class="crumb"><a href="index.html">首页</a> / 学习数据</div>
@@ -1694,6 +1666,17 @@ function buildStats() {
     <div class="k"><b id="rQRate" style="color:var(--ok)">—</b><span id="rQSub">语法精练总正确率</span></div>
     <div class="k"><b id="rWrong" style="color:var(--rose)">0</b><span>错题本待清理</span></div>
   </div>
+</section>
+
+<section class="section" id="weakSection" style="display:none;margin-top:28px">
+  <div class="section-head">
+    <div class="section-head-left">
+      <span class="kicker">语法专项</span>
+      <h2>各考点掌握诊断</h2>
+      <span class="sub">答满 3 题的考点按正确率从低到高排列，红色项建议重点重练</span>
+    </div>
+  </div>
+  <div id="weakList"></div>
 </section>
 
 <section class="section" style="margin-top:28px">
@@ -1793,8 +1776,31 @@ function renderReport() {
   }
 }
 
+// 各考点掌握诊断：答满 3 题的考点按正确率从低到高排列
+const TNAME = new Map();
+(window.PET_DATA.GRAMMAR || []).forEach(g => g.topics.forEach(t => TNAME.set(t.id, t.name)));
+function renderWeak() {
+  const rows = P.qTopicStats().filter(x => x.n >= 3).sort((a, b) => a.rate - b.rate);
+  const sec = document.querySelector('#weakSection');
+  const list = document.querySelector('#weakList');
+  if (!sec || !list) return;
+  if (!rows.length) { sec.style.display = 'none'; return; }
+  sec.style.display = '';
+  list.innerHTML = '<div class="wordlist">' + rows.map(x => {
+    const pct = Math.round(x.rate * 100);
+    const cls = pct < 60 ? 'bar rose' : pct < 80 ? 'bar warn' : 'bar ok';
+    return '<div class="wrow" style="grid-template-columns:1.4fr 110px 1fr auto;cursor:default">' +
+      '<span class="w" style="cursor:default">' + P.esc(TNAME.get(x.topic) || x.topic) + '</span>' +
+      '<span class="pos">' + x.ok + ' / ' + x.n + ' 题</span>' +
+      '<span class="' + cls + '"><i style="width:' + pct + '%"></i></span>' +
+      '<span class="flag">' + pct + '%</span></div>';
+  }).join('') + '</div>';
+}
+
 renderReport();
+renderWeak();
 document.addEventListener('pet:profile', renderReport);
+document.addEventListener('pet:qlog', renderWeak);
 
 document.querySelector('#exportBtn').addEventListener('click', () => {
   const blob = new Blob([P.exportBackup()], { type: 'application/json' });
