@@ -300,6 +300,8 @@ if (sfxBtn) sfxBtn.addEventListener('click', () => { P.setSfx(!P.sfxEnabled()); 
     });
   });
   setHint('scopeHint', HINTS.src[src]);
+  // 恢复上次选择的范围后必须重算统计，否则卡片仍是默认范围的数字
+  refreshKv();
 })();
 
 document.querySelector('#startBtn').addEventListener('click', () => {
