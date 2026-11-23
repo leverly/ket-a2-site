@@ -1167,9 +1167,34 @@ document.querySelector('#startBtn').addEventListener('click', () => {
   if (type !== 'all') pool = pool.filter(q => (q.type || 'choice') === type);
   if (!pool.length) { P.toast('当前筛选组合下没有题目，换个条件试试'); return; }
 
+  // 间隔重复：未到复习期的题本轮不抽，优先给到期与从没做过的题
+  let picked = pool;
+  if (scope !== 'wrong' && !topic) {
+    const now = Date.now();
+    const due = [], fresh = [], later = [];
+    pool.forEach(q => {
+      const s = P.qSched(q.id);
+      if (!s) fresh.push(q);
+      else if ((s.due || 0) <= now) due.push(q);
+      else later.push(q);
+    });
+    const ready = due.concat(fresh);
+    if (ready.length) {
+      picked = ready;
+      const skipped = later.length;
+      if (skipped) P.toast('已跳过 ' + skipped + ' 道未到复习期的题');
+    } else {
+      // 全部都在复习期内，本轮就没有题可练了
+      const soon = later.map(q => P.qSched(q.id).due).sort((a, b) => a - b)[0];
+      const hrs = Math.max(1, Math.round((soon - now) / 3600000));
+      P.toast('这一范围的题都在复习期内，约 ' + hrs + ' 小时后到期再来');
+      return;
+    }
+  }
+
   document.querySelector('#setup').style.display = 'none';
   document.querySelector('#zone').style.display = '';
-  P.quiz({ mount: '#qz', questions: pool, limit: len, shuffle: true,
+  P.quiz({ mount: '#qz', questions: picked, limit: len, shuffle: true,
     reviewHref: 'grammar.html', reviewLabel: '回顾语法避坑',
     onRestart: () => location.reload(),
     onFinish: refreshStats });

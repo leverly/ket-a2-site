@@ -356,6 +356,7 @@
       if (r && typeof r.n === 'number') qlog.topicStats[t] = { n: r.n, ok: r.ok || 0 };
     });
   }
+  qlog.qSched = qlog.qSched || {};
   P.qLog = function () { return qlog; };
   P.qRecord = function (topic, ok, id) {
     var r = qlog.topicStats[topic] = qlog.topicStats[topic] || { n: 0, ok: 0 };
@@ -364,10 +365,50 @@
     if (id) {
       if (ok) delete qlog.wrongIds[id];
       else qlog.wrongIds[id] = { t: topic, at: Date.now() };
+      qSchedule(id, ok);
     }
     store(QLOG_KEY, qlog);
     P.bumpDay('questions', 1);
     document.dispatchEvent(new CustomEvent('pet:qlog', { detail: { topic: topic, ok: ok } }));
+  };
+
+  /* 语法题单题间隔重复：答错 10 分钟后再练，答对后按 1/3/7/21 天逐步拉长。
+     未到复习期的题不进新的一轮，避免刚做对的题下一轮立刻重复出现。 */
+  var Q_IVL = [1, 3, 7, 21];
+  function qSchedule(id, ok) {
+    var m = qlog.qSched = qlog.qSched || {};
+    var s = m[id] || { lv: 0, due: 0, reps: 0, lapses: 0 };
+    if (ok) {
+      // lv 是已经答对的次数，用它取本档间隔：1 天 -> 3 天 -> 7 天 -> 21 天
+      s.due = Date.now() + Q_IVL[Math.min(s.lv, Q_IVL.length - 1)] * DAY;
+      s.lv = Math.min(s.lv + 1, Q_IVL.length);
+    } else {
+      s.lv = 0;
+      s.lapses = (s.lapses || 0) + 1;
+      s.due = Date.now() + 10 * 60000;
+    }
+    s.reps = (s.reps || 0) + 1;
+    s.last = Date.now();
+    m[id] = s;
+  }
+  P.qSched = function (id) { return (qlog.qSched || {})[id] || null; };
+  P.qDueIds = function () {
+    var now = Date.now(), out = [];
+    Object.keys(qlog.qSched || {}).forEach(function (id) {
+      if ((qlog.qSched[id].due || 0) <= now) out.push(id);
+    });
+    return out;
+  };
+  P.qStats = function () {
+    var now = Date.now(), m = qlog.qSched || {}, keys = Object.keys(m);
+    var due = 0, learning = 0, mature = 0;
+    keys.forEach(function (k) {
+      var s = m[k];
+      if (!s) return;
+      if ((s.due || 0) <= now) due++;
+      if ((s.lv || 0) >= 3) mature++; else learning++;
+    });
+    return { total: keys.length, due: due, learning: learning, mature: mature };
   };
   P.qTopicStats = function () {
     var out = [];
@@ -382,7 +423,7 @@
     if (id) delete qlog.wrongIds[id]; else qlog.wrongIds = {};
     store(QLOG_KEY, qlog);
   };
-  P.qReset = function () { qlog = { topicStats: {}, wrongIds: {} }; store(QLOG_KEY, qlog); };
+  P.qReset = function () { qlog = { topicStats: {}, wrongIds: {}, qSched: {} }; store(QLOG_KEY, qlog); };
 
   /* ---------------- 学习等级与 XP 激励 ---------------- */
   P.levelInfo = function () {
