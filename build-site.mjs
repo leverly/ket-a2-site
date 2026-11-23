@@ -751,18 +751,6 @@ function buildStudy() {
   <div class="crumb"><a href="index.html">首页</a> / 听音背单词</div>
   <h1>听音闯关背单词</h1>
   <p class="lede">按 <b>艾宾浩斯遗忘曲线</b> 科学排期：答错 10 分钟后再现，答稳了自动拉长间隔（1 天 → 3 天 → 7 天 → 21 天+），每词自带纯正剑桥英音。</p>
-
-  <div class="scope-bar">
-    <div class="scope-bar-label">选择背词词库范围</div>
-    <div class="chips" id="scopeBar">
-      <button class="chip on" data-s="all">全部词条 <b>${STATS.total}</b></button>
-      <button class="chip" data-s="b1">核心高频 <b>${STATS.b1}</b></button>
-      <button class="chip" data-s="b2">中频主力 <b>${STATS.b2}</b></button>
-      <button class="chip" data-s="b3">拓展词汇 <b>${STATS.b3}</b></button>
-      <button class="chip" data-s="phrase">只背短语 <b>${STATS.phrases}</b></button>
-    </div>
-    <p class="scope-bar-hint" id="scopeHint">全部 ${STATS.total.toLocaleString('en-US')} 条官方词表与短语，覆盖最全</p>
-  </div>
 </div>
 
 <section class="section" style="margin-top:22px">
@@ -773,6 +761,19 @@ function buildStudy() {
     <div class="k"><b id="kAcc" style="color:var(--ok)">—</b><span id="kAccSub">背词准确率</span></div>
     <div class="k"><b id="kScope">—</b><span>本范围总词量</span></div>
   </div>
+
+  <div class="scope-bar" style="margin-top:14px">
+    <div class="scope-bar-label">选择背词词库范围</div>
+    <div class="chips" id="scopeBar">
+      <button class="chip on" data-s="all">全部词条 <b>${STATS.total}</b></button>
+      <button class="chip" data-s="b1">核心高频 <b>${STATS.b1}</b></button>
+      <button class="chip" data-s="b2">中频主力 <b>${STATS.b2}</b></button>
+      <button class="chip" data-s="b3">拓展词汇 <b>${STATS.b3}</b></button>
+      <button class="chip" data-s="phrase">只背短语 <b>${STATS.phrases}</b></button>
+    </div>
+    <p class="scope-bar-hint" id="scopeHint">全部 ${STATS.total.toLocaleString('en-US')} 条官方词表与短语，覆盖最全</p>
+  </div>
+
   <div class="card" style="padding:20px 24px;margin-top:14px">
     <div class="today-goal-row">
       <span>今日已背 <b id="kToday">0</b> / <b id="kGoal">20</b> 词 · 🔥 连续打卡 <b id="kStreak">0</b> 天</span>
@@ -945,23 +946,18 @@ syncSfx();
 if (sfxBtn) sfxBtn.addEventListener('click', () => { P.setSfx(!P.sfxEnabled()); syncSfx(); });
 
 (function initScope() {
-  try {
-    const saved = localStorage.getItem('ket-scope');
-    if (saved && HINTS.src[saved]) src = saved;
-  } catch (e) {}
+  // 每次进入都从默认的「全部词条」开始，不记忆上次选择（与 PET 站一致）
   document.querySelectorAll('#scopeBar .chip').forEach(c => {
     c.classList.toggle('on', c.getAttribute('data-s') === src);
     c.addEventListener('click', () => {
       document.querySelectorAll('#scopeBar .chip').forEach(x => x.classList.remove('on'));
       c.classList.add('on');
       src = c.getAttribute('data-s');
-      try { localStorage.setItem('ket-scope', src); } catch (e) {}
       setHint('scopeHint', HINTS.src[src]);
       refreshKv();
     });
   });
   setHint('scopeHint', HINTS.src[src]);
-  // 恢复上次选择的范围后必须重算统计，否则卡片仍是默认范围的数字
   refreshKv();
 })();
 
