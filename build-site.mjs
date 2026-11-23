@@ -560,7 +560,7 @@ function buildTopics() {
     <a class="btn sm soft" href="index.html">← 返回全部话题</a>
   </div>
   <div class="chips" style="margin-bottom:18px">
-    <button class="chip on" data-filter="all">全部</button>
+    <button class="chip" data-filter="all">全部</button>
     <button class="chip" data-filter="b1">核心高频</button>
     <button class="chip" data-filter="b2">中频主力</button>
     <button class="chip" data-filter="b3">拓展词</button>
@@ -570,7 +570,7 @@ function buildTopics() {
 </section>`,
       script: `
 const list = window.PET_DATA.TOPIC_WORDS;
-window.PET.renderWordList({ mount: '#wlist', words: list, pageSize: 40, search: '#wq', onKnown: true });
+window.PET.renderWordList({ mount: '#wlist', words: list, pageSize: 40, search: '#wq', filter: 'new', onKnown: true });
 `,
     }));
   });
