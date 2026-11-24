@@ -370,19 +370,26 @@
     });
   }
   qlog.qSched = qlog.qSched || {};
+  // 题型维度统计：学情诊断的第二条线（单选 / 改错 / 填空）
+  qlog.typeStats = qlog.typeStats || {};
   P.qLog = function () { return qlog; };
-  P.qRecord = function (topic, ok, id) {
+  P.qRecord = function (topic, ok, id, type) {
+    var ty = type || 'choice';
     var r = qlog.topicStats[topic] = qlog.topicStats[topic] || { n: 0, ok: 0 };
     r.n++;
     if (ok) r.ok++;
+    qlog.typeStats = qlog.typeStats || {};
+    var tr = qlog.typeStats[ty] = qlog.typeStats[ty] || { n: 0, ok: 0 };
+    tr.n++;
+    if (ok) tr.ok++;
     if (id) {
       if (ok) delete qlog.wrongIds[id];
-      else qlog.wrongIds[id] = { t: topic, at: Date.now() };
+      else qlog.wrongIds[id] = { t: topic, ty: ty, at: Date.now() };
       qSchedule(id, ok);
     }
     store(QLOG_KEY, qlog);
     P.bumpDay('questions', 1);
-    document.dispatchEvent(new CustomEvent('pet:qlog', { detail: { topic: topic, ok: ok } }));
+    document.dispatchEvent(new CustomEvent('pet:qlog', { detail: { topic: topic, ok: ok, type: ty } }));
   };
 
   /* 语法题单题间隔重复：答错 10 分钟后再练，答对后按 1/3/7/21 天逐步拉长。
@@ -431,12 +438,20 @@
     });
     return out;
   };
+  P.qTypeStats = function () {
+    var out = [];
+    Object.keys(qlog.typeStats || {}).forEach(function (t) {
+      var r = qlog.typeStats[t];
+      out.push({ type: t, n: r.n, ok: r.ok, rate: r.n ? r.ok / r.n : 0 });
+    });
+    return out;
+  };
   P.wrongIds = function () { return Object.keys(qlog.wrongIds || {}); };
   P.qClearWrong = function (id) {
     if (id) delete qlog.wrongIds[id]; else qlog.wrongIds = {};
     store(QLOG_KEY, qlog);
   };
-  P.qReset = function () { qlog = { topicStats: {}, wrongIds: {}, qSched: {} }; store(QLOG_KEY, qlog); };
+  P.qReset = function () { qlog = { topicStats: {}, wrongIds: {}, qSched: {}, typeStats: {} }; store(QLOG_KEY, qlog); };
 
   /* ---------------- 学习等级与 XP 激励 ---------------- */
   P.levelInfo = function () {
@@ -997,7 +1012,7 @@
         (ok ? '<span class="auto-next-hint">自动进入下一题…</span>' : '') + '</div>';
       var nx = host.querySelector('#qnext');
       if (!ok) { nx.disabled = false; nx.focus(); } else { nx.remove(); }
-      if (P.qRecord) P.qRecord(q.topic, ok, q.id);
+      if (P.qRecord) P.qRecord(q.topic, ok, q.id, q.type || 'choice');
       if (opts.onAnswer) opts.onAnswer(q, ok);
       if (ok) {
         clearTimeout(autoNextTimer);

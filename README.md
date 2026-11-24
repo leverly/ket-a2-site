@@ -34,7 +34,7 @@ open index.html          # 双击也行，无需服务器
 | `review.html` | 真题式练语法，自动定位最弱考点 |
 | `wrong.html` | 错词本 + 错题本，可打印 |
 | `plan.html` | 6 周通关计划（逐周打卡、按考试日期推荐每日词量） |
-| `stats.html` | 学习数据、导出/导入备份 |
+| `stats.html` | 学情诊断（语法考点 / 题型 / 错词话题三条线）、导出/导入档案 |
 
 学习记录存 localStorage，键名统一 `ket-` 前缀，与 PET 站同域部署互不干扰。
 目标档位按 KET 量表：Pass 120–132 / Merit 133–139 / Distinction 140–150。
