@@ -1772,10 +1772,10 @@ function buildStats() {
 </section>
 
 <section class="section" style="margin-top:26px">
-  <div class="kv">
+  <div class="kv kv-dx">
     <div class="k"><b id="rLevel">Lv.1</b><span id="rXp">剑桥萌新 · 0 XP</span></div>
     <div class="k"><b id="rStreak" style="color:var(--gold)">0 天</b><span>当前连续打卡</span></div>
-    <div class="k"><b id="rWords" style="color:var(--accent)">0</b><span id="rWordsSub">已学词数（牢固 0）</span></div>
+    <div class="k"><b id="rWords" style="color:var(--accent)">0</b><span id="rWordsSub">已学词数</span></div>
     <div class="k"><b id="rQRate" style="color:var(--ok)">—</b><span id="rQSub">语法精练总正确率</span></div>
     <div class="k"><b id="rWordRate" style="color:var(--accent-2)">—</b><span id="rWordRateSub">背词正确率</span></div>
     <div class="k"><b id="rWrong" style="color:var(--rose)">0</b><span>错题待清理</span></div>
@@ -2058,12 +2058,18 @@ function renderReport() {
   setText('#rXp', lv.name + ' · ' + lv.xp + ' XP');
   setText('#rStreak', P.streak() + ' 天');
   setText('#rWords', srs.total);
-  setText('#rWordsSub', '已学词数（已牢固 ' + srs.mature + ' 词）');
+  setText('#rWordsSub', '已学词数');
+  var wsEl = document.querySelector('#rWordsSub');
+  if (wsEl) wsEl.title = '其中已牢固 ' + srs.mature + ' 词';
   setText('#rQRate', qN ? Math.round(qOk / qN * 100) + '%' : '—');
-  setText('#rQSub', qN ? '语法精练正确率（累计 ' + qN + ' 题）' : '暂未开始语法练习');
+  setText('#rQSub', qN ? '语法正确率' : '暂未开始练习');
+  var qsEl = document.querySelector('#rQSub');
+  if (qsEl && qN) qsEl.title = '语法精练累计 ' + qN + ' 题';
   var wa = P.wordAcc ? P.wordAcc() : { rate: null, n: 0 };
   setText('#rWordRate', wa.rate === null ? '—' : wa.rate + '%');
-  setText('#rWordRateSub', wa.n ? '背词正确率（' + wa.n + ' 次作答）' : '背词正确率');
+  setText('#rWordRateSub', '背词正确率');
+  var wasEl = document.querySelector('#rWordRateSub');
+  if (wasEl && wa.n) wasEl.title = '累计 ' + wa.n + ' 次作答';
   var wbN = P.wordBookCount(), qwN = P.wrongIds().length;
   setText('#rWrong', wbN + qwN);
 
